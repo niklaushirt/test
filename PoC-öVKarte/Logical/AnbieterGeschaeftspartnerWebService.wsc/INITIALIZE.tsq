@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1387453178067" createdUser="Administrator" id="57223de3:14306824ffe:2ce5" type="test_resource" updatedTimestamp="1387453250669" updatedUser="Administrator" version="1.1">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig description="" name="">
+      <testTree>
+         <editableResource id="57223de3:14306824ffe:2d23" selfDescribing="The SQL Command action is used for executing the Data Manipulation Language statements INSERT, UPDATE, and DELETE against the selected database connection. If desired, the number of rows affected may be validated or stored into a tag." type="sql_command_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig callableStatement="false" description="" isAutoCommit="true" name="&quot;DELETE FROM `sbb_persistence`.`an_gp` WHERE `GROUPING`='99';&quot;" sqlStatement="DELETE FROM `sbb_persistence`.`an_gp` WHERE `GROUPING`='99';" timeOffset="-18000000">
+               <dbserverid id="57223de3:14306824ffe:-6c5c" lkiconpath="com/ghc/ghTester/images/data.png" lkname="PERSISTENCE" lkpath="AnbieterGeschaeftspartnerWebService/PERSISTENCE"/>
+            </resourceConfig>
+         </editableResource>
+      </testTree>
+      <tagDataStore inputMode="NONE" outputMode="NONE"/>
+   </resourceConfig>
+</editableResource>

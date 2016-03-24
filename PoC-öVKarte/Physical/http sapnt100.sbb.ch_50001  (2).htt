@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1387463583539" createdUser="Administrator" id="-69fdd30f:1430b452278:-7e71:-1191600523:1544155186" selfDescribing="http sapnt100.sbb.ch:50001 " type="http_transport" updatedTimestamp="1387463583539" updatedUser="Administrator" version="1.0">
+   <syncdetails compare="http sapnt100.sbb.ch:50001 " lastSynced="1387463583539" sourceid="-69fdd30f:1430b452278:-7e71">
+      <sourcepath path="os_GeschaeftspartnerService/HTTPS_Port"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!fcea" credType="0" credUser="" httpHost="sapnt100.sbb.ch" httpNtlmDomain="" httpPort="50001" httpProxyHost="" httpProxyPassword="#com.ghc.1!2711" httpProxyPort="" httpProxyUsername="" httpResourceRoot="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" performValidation="false" specifyProvidedCertificate="false" specifyTrustedCertificate="false" trustedIdentityStore="" useSSL="false" verifyCerts="false" version="3"/>
+   </resourceConfig>
+</editableResource>

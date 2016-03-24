@@ -1,0 +1,17 @@
+grouping,grundkartennummer,vorname,geburtsdatum,dienststellenName,name2 (2),geschlecht,type,telefonnummer,oevKundennummer,plz (2),email,name,plz,ort,strasseUndHausnummer,name1,mutationDatum,name1 (2),name2,fotoDatum
+1,RVC725,Sonja,1970-12-12T00:00:00.000+01:00,POS,NULL,Frau,d:GeschaeftspartnerPrivatWS,079 123 456 78,1194597,3000,NULL,Tester,3000,Bern,Brunnaderstrasse 46,Tester,2013-12-10+01:00,NULL,Sonja,NULL
+2,VDC828,NULL,1950-08-27T00:00:00.000+01:00,NULL,Ant,Frau,NULL,NULL,1160416,1007,NULL,NULL,1007,Lausanne,Avenue des Chiens 62,Kutschera,NULL,Kutschera,Ant,NULL
+2,VDJ896,NULL,2006-07-06T00:00:00.000+02:00,NULL,Ant MutiertDri,Mann,NULL,NULL,1165115,1007,NULL,NULL,1007,Lausanne,avenue des Figuiers 21,Kutschera,NULL,Kutschera,Ant,NULL
+3,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,42119,NULL,NULL,flower power,NULL,NULL,Klaus,NULL
+4,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,42119,NULL,NULL,Flower power,NULL,NULL,Klaus,NULL
+5,ABC123,NULL,NULL,NULL,Carla,Frau,NULL,NULL,1154096,4058,NULL,NULL,4058,Basel,Clarastrasse 12,Bolognese,NULL,Bolognese,Carla,NULL
+5,GLM269,NULL,NULL,NULL,Carla,Frau,NULL,NULL,1154517,4058,NULL,NULL,4058,Basel,Clarastrasse 12,Bolognese,NULL,Bolognese,Carla,NULL
+5,ICE821,NULL,NULL,NULL,Carla,Frau,NULL,NULL,1154518,4058,NULL,NULL,4058,basel,Clarastrasse 12,Bolognese,NULL,Bolognese,Carla,NULL
+5,NLX969,NULL,NULL,NULL,Carla,Frau,NULL,NULL,1154520,4058,NULL,NULL,4058,Basel,Clarastrasse 14,Bolognese,NULL,Bolognese,Carla,NULL
+5,VOX471,NULL,NULL,NULL,Carla,Frau,NULL,NULL,1154521,4058,NULL,NULL,4058,Basel,Clarastrasse 15,Bolognese,NULL,Bolognese,Carla,NULL
+5,ABC123,NULL,NULL,NULL,Carla,Frau,NULL,NULL,1154613,4058,NULL,NULL,4058,Basel,Clarastrasse 12,Bolognese,NULL,Bolognese,Carla,NULL
+5,IBT853,NULL,NULL,NULL,Carla,Frau,NULL,NULL,1154614,4058,NULL,NULL,4058,Basel,Clarastrasse 12,Bolognese,NULL,Bolognese,Carla,NULL
+5,ABC123,NULL,1997-01-01T00:00:00.000+01:00,NULL,Carla,Frau,NULL,NULL,1159339,4058,NULL,NULL,4058,Basel,Clarastrasse 12,Bolognese,NULL,Bolognese,Carla,NULL
+6,ABC123,NULL,NULL,NULL,test,Mann,NULL,NULL,1153777,3012,NULL,NULL,3012,Bern,Bühlstrasse 42,Testen,NULL,Testen,test,NULL
+6,DLE716,NULL,1965-11-22T00:00:00.000+01:00,NULL,test,Mann,NULL,NULL,1041669,3000,NULL,NULL,3012,bruch 65,murks,Testen,NULL,testen,test,NULL
+7,ABC123,Oskar,2005-01-01T00:00:00.000+01:00,BN TUP-P2/1,NULL,Frau,d:GeschaeftspartnerPrivatWS,NULL,1063563,3012,abcd.def@abc.ch,Paroz,3012,Bern,Mittelstrasse 43,Paroz,2008-01-23+01:00,NULL,Oskar,2008-02-01T00:00:00.000+01:00

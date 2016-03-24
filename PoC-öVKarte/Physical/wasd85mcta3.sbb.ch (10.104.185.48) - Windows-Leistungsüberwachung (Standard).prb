@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1386672729480" createdUser="ue60952" id="1a02d625:142dc21920d:-7e58" selfDescribing="wasd85mcta3.sbb.ch (10.104.185.48) - Windows-Leistungsüberwachung (Standard)" type="probe_resource" updatedTimestamp="1386672729480" updatedUser="ue60952" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="Standard" physicalResourceID="1a02d625:142dc21920d:-7e5e" probeID="ghviewer.plugin.perfmon">
+      <PerfMonDatasource Konfiguration="Standard"/>
+   </resourceConfig>
+</editableResource>

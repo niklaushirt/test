@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1387448883800" createdUser="Administrator" id="57223de3:14306824ffe:-274a" type="test_resource" updatedTimestamp="1387453420591" updatedUser="Administrator" version="1.1">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig description="" name="">
+      <testTree>
+         <editableResource id="57223de3:14306824ffe:-2746" selfDescribing="Publish a message and wait for a response to be received.  This can then be validated accordingly." type="send_request_action" version="1.1">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" formatter="HTTP_Message" name="&quot;Text&quot; on resource &quot;/mct/v76/anbieter/vertrieb/AnbieterGeschaeftspartnerWebService&quot; using schema &quot;Text&quot; via &quot;AnbieterGeschaeftspartnerWebServicePort&quot;" transport="1a02d625:142dc21920d:-7eba:-1332531082:408339756">
+               <headerMessage assocdefid="Http Publish" meTy="Message" name="" sch="Http Publish" type="12" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+                  <_c meTy="String" name="Method" sch="Http Publish" type="7" value="POST" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction type="0">
+                           <fieldAction exp="POST" type="0"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                  </_c>
+                  <_c meTy="String" name="URL" sch="Http Publish" type="7" value="/mct/v76/anbieter/vertrieb/AnbieterGeschaeftspartnerWebService" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction type="0">
+                           <fieldAction exp="/mct/v76/anbieter/vertrieb/AnbieterGeschaeftspartnerWebService" type="0"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                  </_c>
+                  <_c meTy="Message" name="httpDetails" sch="Http Publish" type="12" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                     <_c meTy="String" name="Version" sch="Http Publish" type="7" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction exp="1.1" type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                     <_c meTy="Message" name="httpHeaders" sch="Http Publish" type="12" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction enabled="false" type="1">
+                              <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                        <_c meTy="String" name="Pragma" sch="Http Publish" type="7" value="no-cache" version="1.2">
+                           <fieldActionGroup>
+                              <fieldAction type="0">
+                                 <fieldAction exp="no-cache" type="0"/>
+                              </fieldAction>
+                           </fieldActionGroup>
+                        </_c>
+                        <_c meTy="String" name="SOAPAction" sch="Http Publish" type="7" value="&quot;speichereGp&quot;" version="1.2">
+                           <fieldActionGroup>
+                              <fieldAction type="0">
+                                 <fieldAction exp="&quot;speichereGp&quot;" type="0"/>
+                              </fieldAction>
+                           </fieldActionGroup>
+                        </_c>
+                        <_c meTy="String" name="Content-Type" sch="Http Publish" type="7" value="text/xml; charset=UTF-8" version="1.2">
+                           <fieldActionGroup>
+                              <fieldAction type="0">
+                                 <fieldAction exp="text/xml; charset=UTF-8" type="0"/>
+                              </fieldAction>
+                           </fieldActionGroup>
+                        </_c>
+                     </_c>
+                     <_c meTy="Boolean" name="followRedirects" type="8" value="true" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction type="0">
+                              <fieldAction exp="true" type="0"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                  </_c>
+                  <_c meTy="String" name="MessageType" sch="Http Publish" type="7" value="http.text.message.type" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction type="0">
+                           <fieldAction exp="http.text.message.type" type="0"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                  </_c>
+               </headerMessage>
+               <bodyMessage assocdefid="Text" name="Text" sch="Text" type="12" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+                  <_c coreTypeInt="7" coreTypeName="String" name="text" nodeFormatter="doc_lit" sch="Text" type="12" version="1.2">
+                     <fieldExpander fieldExpanderID="XML_EXPANDER" fieldSchema="1a02d625:142dc21920d:-7ebb" fieldSchemaRoot="speichereGp___EINGABE___SpeichereGpAnfrageWS">
+                        <property name="XML.cdata" value="false"/>
+                        <property name="XML.space" value="false"/>
+                        <property name="Multi-line indented" value="Multi-line indented"/>
+                        <property name="XML.encoding" value="utf-8"/>
+                        <property name="XML.declaration" value="true"/>
+                        <property name="XML.nullvalues" value="false"/>
+                        <property name="XML.xmlFormat" value="Multi-line indented"/>
+                        <property name="XML.normalise" value="true"/>
+                     </fieldExpander>
+                     <nodeProcessor id="doc_lit">
+                        <extension enabled="true" id="ws.security">
+                           <_c MSOption="true"/>
+                        </extension>
+                        <extension enabled="false" id="ws.addressing">
+                           <_c Action="&quot;holeGpFoto&quot;" To="https://wasd85mcta3.sbb.ch:25403/mct/v76/anbieter/vertrieb/AnbieterGeschaeftspartnerWebService"/>
+                        </extension>
+                        <extension enabled="false" id="soap.headers">
+                           <_c assocdefid="xml.Element" meTy="xml.Element" name="" sch="XML" type="12" version="1.2">
+                              <fieldActionGroup>
+                                 <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false" type="0"/>
+                                 </fieldAction>
+                                 <fieldAction type="0">
+                                    <fieldAction type="0"/>
+                                 </fieldAction>
+                              </fieldActionGroup>
+                              <_c coreTypeInt="7" coreTypeName="String" meTy="xml.Text" name="" nodeFormatter="XML" sch="XML" type="12" version="1.2">
+                                 <fieldExpander fieldExpanderID="XML_EXPANDER" fieldSchema="1a02d625:142dc21920d:-7ebb-SoapHeaders" fieldSchemaRoot="Undefined_SOAP_Header">
+                                    <property name="XML.cdata" value="false"/>
+                                    <property name="XML.space" value="false"/>
+                                    <property name="XML.encoding" value="UTF-8"/>
+                                    <property name="XML.declaration" value="true"/>
+                                    <property name="XML.nullvalues" value="false"/>
+                                    <property name="XML.xmlFormat" value="Multi-line indented"/>
+                                    <property name="XML.normalise" value="true"/>
+                                 </fieldExpander>
+                                 <contentTree>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;Undefined_SOAP_Header/&gt;<defaultActions>
+                                       <defaultMessageActions>
+                                          <fieldActionGroup>
+                                             <fieldAction enabled="false" type="1">
+                                                <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                                             </fieldAction>
+                                             <fieldAction type="0">
+                                                <fieldAction type="100"/>
+                                             </fieldAction>
+                                             <fieldAction enabled="false" type="1">
+                                                <fieldAction enabled="false" type="5"/>
+                                             </fieldAction>
+                                             <fieldAction enabled="false" type="1">
+                                                <fieldAction enabled="false" type="6"/>
+                                             </fieldAction>
+                                          </fieldActionGroup>
+                                       </defaultMessageActions>
+                                       <defaultScalarActions>
+                                          <fieldActionGroup>
+                                             <fieldAction enabled="false" type="1">
+                                                <fieldAction enabled="false" type="0"/>
+                                             </fieldAction>
+                                             <fieldAction type="0">
+                                                <fieldAction type="0"/>
+                                             </fieldAction>
+                                             <fieldAction enabled="false" type="1">
+                                                <fieldAction enabled="false" type="5"/>
+                                             </fieldAction>
+                                             <fieldAction enabled="false" type="1">
+                                                <fieldAction enabled="false" type="6"/>
+                                             </fieldAction>
+                                          </fieldActionGroup>
+                                       </defaultScalarActions>
+                                    </defaultActions>
+                                    <updates>
+                                       <updateField path="/{}/Undefined_SOAP_Header">
+                                          <_c assocdefid="Undefined_SOAP_Header"/>
+                                       </updateField>
+                                    </updates>
+                                 </contentTree>
+                                 <fieldActionGroup>
+                                    <fieldAction type="0">
+                                       <fieldAction type="4"/>
+                                    </fieldAction>
+                                    <fieldAction enabled="false" type="1">
+                                       <fieldAction enabled="false" type="7"/>
+                                    </fieldAction>
+                                 </fieldActionGroup>
+                              </_c>
+                           </_c>
+                        </extension>
+                        <extension enabled="false" id="soap.message">
+                           <_c soapVersion="http://schemas.xmlsoap.org/soap/envelope/"/>
+                        </extension>
+                     </nodeProcessor>
+                     <contentTree>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;speichereGp___EINGABE___SpeichereGpAnfrageWS&gt;&#13;
+   &lt;SpeichereGpAnfrageWS xmlns="http://www.sbb.ch/mct/v76/anbieter/geschaeftspartner/comm" xmlns:a="http://www.sbb.ch/mct/v76/anbieter/base/comm"&gt;&#13;
+      &lt;anfrager&gt;&#13;
+         &lt;a:verkaufsdatum&gt;2013-12-19T00:00:00.000&lt;/a:verkaufsdatum&gt;&#13;
+         &lt;a:arbeitsplatz&gt;&#13;
+            &lt;a:billettQuelle&gt;8315&lt;/a:billettQuelle&gt;&#13;
+            &lt;a:schalterNr&gt;206&lt;/a:schalterNr&gt;&#13;
+         &lt;/a:arbeitsplatz&gt;&#13;
+         &lt;a:benutzersprache&gt;DEUTSCH&lt;/a:benutzersprache&gt;&#13;
+         &lt;a:dokumentenSprache&gt;DEUTSCH&lt;/a:dokumentenSprache&gt;&#13;
+      &lt;/anfrager&gt;&#13;
+      &lt;geschaeftspartner b:type="GeschaeftspartnerPrivatWS" xmlns:b="http://www.w3.org/2001/XMLSchema-instance"&gt;&#13;
+         &lt;vorschlag&gt;false&lt;/vorschlag&gt;&#13;
+         &lt;duplikat&gt;false&lt;/duplikat&gt;&#13;
+         &lt;sprache&gt;DEUTSCH&lt;/sprache&gt;&#13;
+         &lt;geschlecht&gt;Frau&lt;/geschlecht&gt;&#13;
+         &lt;geburtsdatum&gt;1984-02-02T00:00:00.000&lt;/geburtsdatum&gt;&#13;
+         &lt;adresse&gt;&#13;
+            &lt;strasseUndHausnummer&gt;Effingerstrasse 24&lt;/strasseUndHausnummer&gt;&#13;
+            &lt;postfachVorhanden&gt;false&lt;/postfachVorhanden&gt;&#13;
+            &lt;plz&gt;3000&lt;/plz&gt;&#13;
+            &lt;ort&gt;Bern&lt;/ort&gt;&#13;
+            &lt;landCode&gt;CH&lt;/landCode&gt;&#13;
+         &lt;/adresse&gt;&#13;
+         &lt;telefonnummer&gt;077 888 99 99&lt;/telefonnummer&gt;&#13;
+         &lt;email/&gt;&#13;
+         &lt;name1&gt;Escargot&lt;/name1&gt;&#13;
+         &lt;name2&gt;Emily&lt;/name2&gt;&#13;
+         &lt;title&gt;Dr.&lt;/title&gt;&#13;
+         &lt;geburtsdatumGeprueft&gt;true&lt;/geburtsdatumGeprueft&gt;&#13;
+      &lt;/geschaeftspartner&gt;&#13;
+      &lt;forciert&gt;false&lt;/forciert&gt;&#13;
+      &lt;validierenAberNichtFuehren&gt;true&lt;/validierenAberNichtFuehren&gt;&#13;
+   &lt;/SpeichereGpAnfrageWS&gt;&#13;
+&lt;/speichereGp___EINGABE___SpeichereGpAnfrageWS&gt;<defaultActions>
+                           <defaultMessageActions>
+                              <fieldActionGroup>
+                                 <fieldAction enabled="false" type="1">
+                                    <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" matching="PREFERENCE" type="101"/>
+                                 </fieldAction>
+                                 <fieldAction type="0">
+                                    <fieldAction type="100"/>
+                                 </fieldAction>
+                                 <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false" type="5"/>
+                                 </fieldAction>
+                                 <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false" type="6"/>
+                                 </fieldAction>
+                              </fieldActionGroup>
+                           </defaultMessageActions>
+                           <defaultScalarActions>
+                              <fieldActionGroup>
+                                 <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false" type="0"/>
+                                 </fieldAction>
+                                 <fieldAction type="0">
+                                    <fieldAction type="0"/>
+                                 </fieldAction>
+                                 <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false" type="5"/>
+                                 </fieldAction>
+                                 <fieldAction enabled="false" type="1">
+                                    <fieldAction enabled="false" type="6"/>
+                                 </fieldAction>
+                              </fieldActionGroup>
+                           </defaultScalarActions>
+                        </defaultActions>
+                        <updates>
+                           <updateField path="/text/speichereGp___EINGABE___SpeichereGpAnfrageWS">
+                              <_c assocdefid="speichereGp___INPUT___SpeichereGpAnfrageWS"/>
+                           </updateField>
+                        </updates>
+                     </contentTree>
+                     <fieldActionGroup>
+                        <fieldAction type="0">
+                           <fieldAction type="4"/>
+                        </fieldAction>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction enabled="false" type="7"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                  </_c>
+               </bodyMessage>
+            </resourceConfig>
+         </editableResource>
+         <editableResource id="57223de3:14306824ffe:-273e" selfDescribing="Receive and validate a response to the request you have sent." type="receive_reply_action" version="1.1">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" formatter="HTTP_Message" name="&quot;Text&quot; using schema &quot;Text&quot;" sendRequestID="57223de3:14306824ffe:-2746" transport="1a02d625:142dc21920d:-7eba:-1332531082:408339756">
+               <headerMessage assocdefid="Http Receive Reply" meTy="Message" name="" sch="Http Receive Reply" type="12" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                     </fieldAction>
+                     <fieldAction type="1">
+                        <fieldAction type="5"/>
+                     </fieldAction>
+                     <fieldAction type="1">
+                        <fieldAction type="6"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+                  <_c meTy="String" name="StatusCode" sch="Http Receive Reply" type="7" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction enabled="false" exp="200" type="0"/>
+                        </fieldAction>
+                        <fieldAction type="1">
+                           <fieldAction type="5"/>
+                        </fieldAction>
+                        <fieldAction type="1">
+                           <fieldAction type="6"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                  </_c>
+                  <_c meTy="String" name="ReasonPhrase" sch="Http Receive Reply" type="7" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction enabled="false" exp="OK" type="0"/>
+                        </fieldAction>
+                        <fieldAction type="1">
+                           <fieldAction type="5"/>
+                        </fieldAction>
+                        <fieldAction type="1">
+                           <fieldAction type="6"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                  </_c>
+                  <_c meTy="String" name="MessageType" sch="Http Receive Reply" type="7" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction enabled="false" exp="http.text.message.type" type="0"/>
+                        </fieldAction>
+                        <fieldAction type="1">
+                           <fieldAction type="5"/>
+                        </fieldAction>
+                        <fieldAction type="1">
+                           <fieldAction type="6"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                  </_c>
+                  <_c meTy="Date-Time" name="rcvdTimestamp" sch="Http Receive Reply" type="11" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction type="1">
+                           <fieldAction type="5"/>
+                        </fieldAction>
+                        <fieldAction type="1">
+                           <fieldAction type="6"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                  </_c>
+                  <_c meTy="Message" name="httpDetails" sch="Http Receive Reply" type="12" version="1.2">
+                     <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                           <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                        <fieldAction type="1">
+                           <fieldAction type="5"/>
+                        </fieldAction>
+                        <fieldAction type="1">
+                           <fieldAction type="6"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                     <_c meTy="String" name="Version" sch="Http Receive Reply" type="7" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction enabled="false" type="1">
+                              <fieldAction enabled="false" exp="1.1" type="0"/>
+                           </fieldAction>
+                           <fieldAction type="1">
+                              <fieldAction type="5"/>
+                           </fieldAction>
+                           <fieldAction type="1">
+                              <fieldAction type="6"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                     </_c>
+                     <_c meTy="Message" name="httpHeaders" sch="Http Receive Reply" type="12" version="1.2">
+                        <fieldActionGroup>
+                           <fieldAction enabled="false" type="1">
+                              <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                           </fieldAction>
+                           <fieldAction type="1">
+                              <fieldAction type="5"/>
+                           </fieldAction>
+                           <fieldAction type="1">
+                              <fieldAction type="6"/>
+                           </fieldAction>
+                        </fieldActionGroup>
+                        <_c meTy="String" name="X-Powered-By" sch="Http Receive Reply" type="7" version="1.2">
+                           <fieldActionGroup>
+                              <fieldAction enabled="false" type="1">
+                                 <fieldAction enabled="false" exp="Servlet/3.0" type="0"/>
+                              </fieldAction>
+                              <fieldAction type="1">
+                                 <fieldAction type="5"/>
+                              </fieldAction>
+                              <fieldAction type="1">
+                                 <fieldAction type="6"/>
+                              </fieldAction>
+                           </fieldActionGroup>
+                        </_c>
+                        <_c meTy="String" name="Content-Type" sch="Http Receive Reply" type="7" version="1.2">
+                           <fieldActionGroup>
+                              <fieldAction enabled="false" type="1">
+                                 <fieldAction enabled="false" exp="text/xml; charset=UTF-8" type="0"/>
+                              </fieldAction>
+                              <fieldAction type="1">
+                                 <fieldAction type="5"/>
+                              </fieldAction>
+                              <fieldAction type="1">
+                                 <fieldAction type="6"/>
+                              </fieldAction>
+                           </fieldActionGroup>
+                        </_c>
+                        <_c meTy="String" name="Content-Language" sch="Http Receive Reply" type="7" version="1.2">
+                           <fieldActionGroup>
+                              <fieldAction enabled="false" type="1">
+                                 <fieldAction enabled="false" exp="en-US" type="0"/>
+                              </fieldAction>
+                              <fieldAction type="1">
+                                 <fieldAction type="5"/>
+                              </fieldAction>
+                              <fieldAction type="1">
+                                 <fieldAction type="6"/>
+                              </fieldAction>
+                           </fieldActionGroup>
+                        </_c>
+                        <_c meTy="String" name="Set-Cookie" sch="Http Receive Reply" type="7" version="1.2">
+                           <fieldActionGroup>
+                              <fieldAction enabled="false" type="1">
+                                 <fieldAction enabled="false" exp="JSESSIONID=0000e8kkb2JLBMV5hPQPd9VXhbk:18177411h; Path=/mct; HttpOnly" type="0"/>
+                              </fieldAction>
+                              <fieldAction type="1">
+                                 <fieldAction type="5"/>
+                              </fieldAction>
+                              <fieldAction type="1">
+                                 <fieldAction type="6"/>
+                              </fieldAction>
+                           </fieldActionGroup>
+                        </_c>
+                     </_c>
+                  </_c>
+               </headerMessage>
+               <subconfig MessageType="http.text.message.type" _version="1.1" formatter="HTTP_Message" transport="1a02d625:142dc21920d:-7eba:-1332531082:408339756"/>
+               <bodyMessage assocdefid="Text" name="Text" sch="Text" type="12" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction type="1">
+                        <fieldAction anyOrder="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+                  <_c coreTypeInt="7" coreTypeName="String" name="text" nodeFormatter="doc_lit" sch="Text" type="12" version="1.2">
+                     <fieldExpander fieldExpanderID="XML_EXPANDER" fieldSchema="1a02d625:142dc21920d:-7ebb" fieldSchemaRoot="speichereGp___AUSGABE___SpeichereGpAntwortWS">
+                        <property name="XML.cdata" value="false"/>
+                        <property name="XML.space" value="false"/>
+                        <property name="Multi-line indented" value="Multi-line indented"/>
+                        <property name="XML.encoding" value="UTF-8"/>
+                        <property name="XML.declaration" value="true"/>
+                        <property name="XML.nullvalues" value="false"/>
+                        <property name="XML.xmlFormat" value="Multi-line indented"/>
+                        <property name="XML.normalise" value="true"/>
+                     </fieldExpander>
+                     <nodeProcessor id="doc_lit">
+                        <extension enabled="false" id="ws.security">
+                           <_c MSOption="true"/>
+                        </extension>
+                        <extension enabled="false" id="ws.addressing">
+                           <_c Action="&quot;holeGpFoto&quot;" To="https://wasd85mcta3.sbb.ch:25403/mct/v76/anbieter/vertrieb/AnbieterGeschaeftspartnerWebService"/>
+                        </extension>
+                        <extension enabled="false" id="soap.headers">
+                           <_c assocdefid="xml.Element" meTy="xml.Element" name="" sch="XML" type="12" version="1.2">
+                              <fieldActionGroup>
+                                 <fieldAction type="1">
+                                    <fieldAction type="0"/>
+                                 </fieldAction>
+                              </fieldActionGroup>
+                              <_c coreTypeInt="7" coreTypeName="String" meTy="xml.Text" name="" nodeFormatter="XML" sch="XML" type="12" version="1.2">
+                                 <fieldExpander fieldExpanderID="XML_EXPANDER" fieldSchema="1a02d625:142dc21920d:-7ebb-SoapHeaders" fieldSchemaRoot="Undefined_SOAP_Header">
+                                    <property name="XML.cdata" value="false"/>
+                                    <property name="XML.space" value="false"/>
+                                    <property name="XML.encoding" value="UTF-8"/>
+                                    <property name="XML.declaration" value="true"/>
+                                    <property name="XML.nullvalues" value="false"/>
+                                    <property name="XML.xmlFormat" value="Multi-line indented"/>
+                                    <property name="XML.normalise" value="true"/>
+                                 </fieldExpander>
+                                 <contentTree>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;Undefined_SOAP_Header/&gt;<defaultActions>
+                                       <defaultMessageActions>
+                                          <fieldActionGroup>
+                                             <fieldAction type="1">
+                                                <fieldAction anyOrder="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                                             </fieldAction>
+                                             <fieldAction type="1">
+                                                <fieldAction type="5"/>
+                                             </fieldAction>
+                                             <fieldAction type="1">
+                                                <fieldAction type="6"/>
+                                             </fieldAction>
+                                          </fieldActionGroup>
+                                       </defaultMessageActions>
+                                       <defaultScalarActions>
+                                          <fieldActionGroup>
+                                             <fieldAction type="1">
+                                                <fieldAction type="0"/>
+                                             </fieldAction>
+                                             <fieldAction type="1">
+                                                <fieldAction type="5"/>
+                                             </fieldAction>
+                                             <fieldAction type="1">
+                                                <fieldAction type="6"/>
+                                             </fieldAction>
+                                          </fieldActionGroup>
+                                       </defaultScalarActions>
+                                    </defaultActions>
+                                    <updates>
+                                       <updateField path="/{}/Undefined_SOAP_Header">
+                                          <_c assocdefid="Undefined_SOAP_Header"/>
+                                       </updateField>
+                                    </updates>
+                                 </contentTree>
+                                 <fieldActionGroup>
+                                    <fieldAction type="1">
+                                       <fieldAction type="7"/>
+                                    </fieldAction>
+                                 </fieldActionGroup>
+                              </_c>
+                           </_c>
+                        </extension>
+                        <extension enabled="false" id="soap.message">
+                           <_c soapVersion="http://schemas.xmlsoap.org/soap/envelope/"/>
+                        </extension>
+                     </nodeProcessor>
+                     <contentTree>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;speichereGp___AUSGABE___SpeichereGpAntwortWS&gt;&#13;
+   &lt;gp:SpeichereGpAntwortWS xmlns:gp="http://www.sbb.ch/mct/v76/anbieter/geschaeftspartner/comm"&gt;&#13;
+      &lt;gp:geschaeftspartner&gt;&#13;
+         &lt;gp:paxId/&gt;&#13;
+         &lt;gp:vorschlag&gt;false&lt;/gp:vorschlag&gt;&#13;
+         &lt;gp:duplikat&gt;false&lt;/gp:duplikat&gt;&#13;
+         &lt;gp:oevKundennummer&gt;[0-9][0-9][0-9][0-9][0-9][0-9][0-9]&lt;/gp:oevKundennummer&gt;&#13;
+         &lt;gp:grundkartennummer&gt;ABC123&lt;/gp:grundkartennummer&gt;&#13;
+         &lt;gp:sprache&gt;DEUTSCH&lt;/gp:sprache&gt;&#13;
+         &lt;gp:geschlecht&gt;Frau&lt;/gp:geschlecht&gt;&#13;
+         &lt;gp:geburtsdatum&gt;1984-02-02T00:00:00.000&lt;/gp:geburtsdatum&gt;&#13;
+         &lt;gp:adresse&gt;&#13;
+            &lt;gp:strasseUndHausnummer&gt;Effingerstrasse 24&lt;/gp:strasseUndHausnummer&gt;&#13;
+            &lt;gp:postfachVorhanden&gt;false&lt;/gp:postfachVorhanden&gt;&#13;
+            &lt;gp:adresszusatz/&gt;&#13;
+            &lt;gp:postfach/&gt;&#13;
+            &lt;gp:plz&gt;3000&lt;/gp:plz&gt;&#13;
+            &lt;gp:ort&gt;Bern&lt;/gp:ort&gt;&#13;
+            &lt;gp:landCode&gt;CH&lt;/gp:landCode&gt;&#13;
+         &lt;/gp:adresse&gt;&#13;
+         &lt;gp:telefonnummer&gt;077 888 99 99&lt;/gp:telefonnummer&gt;&#13;
+         &lt;gp:email/&gt;&#13;
+         &lt;gp:name1&gt;Escargot&lt;/gp:name1&gt;&#13;
+         &lt;gp:name2&gt;Emily&lt;/gp:name2&gt;&#13;
+      &lt;/gp:geschaeftspartner&gt;&#13;
+      &lt;gp:gueltigeAnfrage&gt;false&lt;/gp:gueltigeAnfrage&gt;&#13;
+   &lt;/gp:SpeichereGpAntwortWS&gt;&#13;
+&lt;/speichereGp___AUSGABE___SpeichereGpAntwortWS&gt;<defaultActions>
+                           <defaultMessageActions>
+                              <fieldActionGroup>
+                                 <fieldAction type="1">
+                                    <fieldAction anyOrder="false" ignoreExtra="false" ignoreNonPresent="false" matching="PREFERENCE" type="101"/>
+                                 </fieldAction>
+                                 <fieldAction type="1">
+                                    <fieldAction type="5"/>
+                                 </fieldAction>
+                                 <fieldAction type="1">
+                                    <fieldAction type="6"/>
+                                 </fieldAction>
+                              </fieldActionGroup>
+                           </defaultMessageActions>
+                           <defaultScalarActions>
+                              <fieldActionGroup>
+                                 <fieldAction type="1">
+                                    <fieldAction type="0"/>
+                                 </fieldAction>
+                                 <fieldAction type="1">
+                                    <fieldAction type="5"/>
+                                 </fieldAction>
+                                 <fieldAction type="1">
+                                    <fieldAction type="6"/>
+                                 </fieldAction>
+                              </fieldActionGroup>
+                           </defaultScalarActions>
+                        </defaultActions>
+                        <updates>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS">
+                              <_c assocdefid="speichereGp___INPUT___SpeichereGpAnfrageWS"/>
+                           </updateField>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/xmlns:gp">
+                              <_c value="http://www.sbb.ch/mct/v76/anbieter/geschaeftspartner/comm"/>
+                           </updateField>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:vorschlag/{}">
+                              <_c value="false"/>
+                           </updateField>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:duplikat/{}">
+                              <_c value="false"/>
+                           </updateField>
+                           <setAction index="0" path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:oevKundennummer/{}" replaceActionType="0" replaceOuterType="1">
+                              <fieldAction type="1">
+                                 <fieldAction exp="[0-9][0-9][0-9][0-9][0-9][0-9][0-9]" type="2"/>
+                              </fieldAction>
+                           </setAction>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:oevKundennummer/{}">
+                              <_c value="1111111.0000000"/>
+                           </updateField>
+                           <setAction index="0" path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:grundkartennummer/{}" replaceActionType="0" replaceOuterType="1">
+                              <fieldAction enabled="false" type="1">
+                                 <fieldAction enabled="false" exp="ABC123" type="0"/>
+                              </fieldAction>
+                           </setAction>
+                           <setAction index="0" path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:grundkartennummer/{}">
+                              <fieldAction description="Store copy of field with parent 'gp:grundkartennummer' in tag 'gp:grundkartennummer'" tN="grundkartennummerGENERATED" type="2">
+                                 <dataAction type="Copy"/>
+                              </fieldAction>
+                           </setAction>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:grundkartennummer/{}">
+                              <_c value="ABC123"/>
+                           </updateField>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:sprache/{}">
+                              <_c value="DEUTSCH"/>
+                           </updateField>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:geschlecht/{}">
+                              <_c value="Frau"/>
+                           </updateField>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:geburtsdatum/{}">
+                              <_c value="1984-02-02T00:00:00.000"/>
+                           </updateField>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:adresse/gp:strasseUndHausnummer/{}">
+                              <_c value="Effingerstrasse 24"/>
+                           </updateField>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:adresse/gp:postfachVorhanden/{}">
+                              <_c value="false"/>
+                           </updateField>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:adresse/gp:plz/{}">
+                              <_c value="3000"/>
+                           </updateField>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:adresse/gp:ort/{}">
+                              <_c value="Bern"/>
+                           </updateField>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:adresse/gp:landCode/{}">
+                              <_c value="CH"/>
+                           </updateField>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:telefonnummer/{}">
+                              <_c value="077 888 99 99"/>
+                           </updateField>
+                           <setAction index="0" path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:name1/{}">
+                              <fieldAction description="Store copy of field in tag 'nameEXT'" tN="nameEXT" type="2">
+                                 <dataAction type="Copy"/>
+                              </fieldAction>
+                           </setAction>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:name1/{}">
+                              <_c value="Escargot"/>
+                           </updateField>
+                           <setAction index="0" path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:name2/{}">
+                              <fieldAction description="Store copy of field in tag 'vornameEXT'" tN="vornameEXT" type="2">
+                                 <dataAction type="Copy"/>
+                              </fieldAction>
+                           </setAction>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:geschaeftspartner/gp:name2/{}">
+                              <_c value="Emily"/>
+                           </updateField>
+                           <updateField path="/text/speichereGp___AUSGABE___SpeichereGpAntwortWS/gp:SpeichereGpAntwortWS/gp:gueltigeAnfrage/{}">
+                              <_c value="false"/>
+                           </updateField>
+                        </updates>
+                     </contentTree>
+                     <fieldActionGroup>
+                        <fieldAction type="1">
+                           <fieldAction type="7"/>
+                        </fieldAction>
+                     </fieldActionGroup>
+                  </_c>
+               </bodyMessage>
+            </resourceConfig>
+         </editableResource>
+      </testTree>
+      <tagDataStore inputMode="NONE" outputMode="SELECT">
+         <tag defaultValue="" description="" name="grundkartennummerGENERATED">
+            <tagProps>
+               <prop key="interfaceOutput" value="true"/>
+               <prop key="scopeExecution" value="true"/>
+            </tagProps>
+         </tag>
+         <tag defaultValue="" description="" name="vornameEXT">
+            <tagProps>
+               <prop key="interfaceOutput" value="true"/>
+               <prop key="scopeExecution" value="true"/>
+            </tagProps>
+         </tag>
+         <tag defaultValue="" description="" name="grundkartennummer"/>
+         <tag defaultValue="" description="" name="nameEXT">
+            <tagProps>
+               <prop key="interfaceOutput" value="true"/>
+               <prop key="scopeExecution" value="true"/>
+            </tagProps>
+         </tag>
+         <tag defaultValue="" description="" name="name1"/>
+         <tag defaultValue="" description="" name="name2"/>
+      </tagDataStore>
+   </resourceConfig>
+</editableResource>

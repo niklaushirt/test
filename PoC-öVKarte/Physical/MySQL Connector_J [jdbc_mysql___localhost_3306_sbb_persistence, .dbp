@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1387385641821" createdUser="Administrator" id="57223de3:14306824ffe:-6c65" selfDescribing="MySQL Connector/J [jdbc:mysql://localhost:3306/sbb_persistence, ibm]" type="database_connection_resource" updatedTimestamp="1387385641821" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig maxConnections="" poolName="DefaultPoolName" transportName="">
+      <connectionParams driverClass="com.mysql.jdbc.Driver" password="#com.ghc.1!e7f812944ACF4468" url="jdbc:mysql://localhost:3306/sbb_persistence" user="ibm">
+         <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!8b38" procedureLearningBehaviour="1" schema="" url="jdbc:mysql://localhost:3306/&lt;database name&gt;" useIntegratedDB="true" user=""/>
+         <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+         <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
+      </connectionParams>
+   </resourceConfig>
+</editableResource>

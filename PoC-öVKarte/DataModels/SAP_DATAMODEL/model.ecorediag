@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_iVuDoGZbEeORQNZ0yT_vXg" type="EcoreTools" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_iWKvkGZbEeORQNZ0yT_vXg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_iWKvk2ZbEeORQNZ0yT_vXg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_iWKvlGZbEeORQNZ0yT_vXg" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_iWKvnGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/cKMNummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgkGZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgkWZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/geschaeftspartnerNummerGeschaeftspartnerNummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgkmZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgk2ZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/cKMNummerCKMNummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUglGZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUglWZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/partnerKategoriePartnerKategorie"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUglmZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgl2ZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/partnerTypPartnerTyp"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgmGZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgmWZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/anredeAnrede"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgmmZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgm2ZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/nameName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgnGZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgnWZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/vornameVorname"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgnmZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgn2ZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/geburtsdatumGeburtsdatum"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgoGZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgoWZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/adressTypAdressTyp"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgomZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgo2ZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/strasseStrasse"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgpGZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgpWZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/postfachOhneNummerPostfachOhneNummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgpmZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgp2ZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/pLZPLZ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgqGZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgqWZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/ortOrt"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgqmZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgq2ZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/landLand"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgrGZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgrWZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/korrespondenzSpracheKorrespondenzSprache"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgrmZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgr2ZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/telefonNummerTelefonNummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgsGZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgsWZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/land"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgsmZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgs2ZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/vertragsnummerVertragsnummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgtGZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgtWZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/dienststellenCode"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgtmZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgt2ZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/vertragsart"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUguGZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUguWZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/vonDatumVonDatum"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgumZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgu2ZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/bisDatumBisDatum"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgvGZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgvWZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/statusStatus"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgvmZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgv2ZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/hauptzahlungsmittel"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgwGZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWUgwWZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/leistungsvertragspositionsnummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWUgwmZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqgGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/artikel"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqgWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqgmZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/leistungsID"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqg2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqhGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/status"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqhWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqhmZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/vonDatum"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqh2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqiGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/bisDatum"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqiWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqimZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/partnerfunktion"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqi2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqjGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/geschaeftspartnerNummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqjWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqjmZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/partnerKategorie"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqj2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqkGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/partnerTyp"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqkWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqkmZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/anrede"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqk2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqlGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqlWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqlmZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/vorname"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdql2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqmGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/geburtsdatum"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqmWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqmmZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/adressTyp"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqm2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqnGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/strasse"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqnWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqnmZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/postfachOhneNummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqn2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqoGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/pLZ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqoWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqomZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/ort"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqo2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqpGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/land0"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqpWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqpmZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/korrespondenzSprache"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqp2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqqGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/emailAdresse"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqqWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqqmZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/telefonNummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqq2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqrGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/land1"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqrWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqrmZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/istBasisGA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqr2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqsGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/vertragsnummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqsWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqsmZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/aktivitaet"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqs2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqtGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/trialFlag"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqtWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqtmZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/mitMindestVertragsdauer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqt2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdquGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/klasse"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdquWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqumZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/meldungstyp"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqu2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqvGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/meldung"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqvWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqvmZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/nachrichtenklasse"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqv2ZbEeORQNZ0yT_vXg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_iWdqwGZbEeORQNZ0yT_vXg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//SAP_DATAMODEL/nachrichtennummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iWdqwWZbEeORQNZ0yT_vXg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_iWKvlWZbEeORQNZ0yT_vXg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_iWKvlmZbEeORQNZ0yT_vXg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_iWKvl2ZbEeORQNZ0yT_vXg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_iWKvmGZbEeORQNZ0yT_vXg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_iWKvmWZbEeORQNZ0yT_vXg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_iWKvmmZbEeORQNZ0yT_vXg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_iWKvm2ZbEeORQNZ0yT_vXg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_iWKvkWZbEeORQNZ0yT_vXg" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="model.ecore#//SAP_DATAMODEL"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iWKvkmZbEeORQNZ0yT_vXg"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_iVuDoWZbEeORQNZ0yT_vXg"/>
+  <element xmi:type="ecore:EPackage" href="model.ecore#/"/>
+</notation:Diagram>

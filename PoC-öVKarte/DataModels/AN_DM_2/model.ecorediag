@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_xpvnIGY2EeOtYrwFsHxtRg" type="EcoreTools" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_xqVdAGY2EeOtYrwFsHxtRg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_xqfOAGY2EeOtYrwFsHxtRg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_xqo_AGY2EeOtYrwFsHxtRg" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_xqo_CGY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/billettQuelle"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_CWY2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_CmY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/schalterNr"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_C2Y2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_DGY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/benutzersprache"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_DWY2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_DmY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/dokumentenSprache"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_D2Y2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_EGY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/oevKundennummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_EWY2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_EmY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/type"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_E2Y2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_FGY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/vorschlag"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_FWY2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_FmY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/duplikat"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_F2Y2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_GGY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/grundkartennummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_GWY2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_GmY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/sprache"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_G2Y2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_HGY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/geschlecht"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_HWY2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_HmY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/geburtsdatum"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_H2Y2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_IGY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/strasseUndHausnummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_IWY2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_ImY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/postfachVorhanden"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_I2Y2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_JGY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/plz"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_JWY2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_JmY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/ort"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_J2Y2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_KGY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/landCode"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_KWY2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_KmY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/telefonnummer"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_K2Y2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_LGY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/mutationDatum"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_LWY2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_LmY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/dienststellenName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_L2Y2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_MGY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_MWY2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_MmY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/vorname"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_M2Y2EeOtYrwFsHxtRg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xqo_NGY2EeOtYrwFsHxtRg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="model.ecore#//AN_TYPE/geburtsdatumGeprueft"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xqo_NWY2EeOtYrwFsHxtRg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_xqo_AWY2EeOtYrwFsHxtRg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xqo_AmY2EeOtYrwFsHxtRg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xqo_A2Y2EeOtYrwFsHxtRg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_xqo_BGY2EeOtYrwFsHxtRg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_xqo_BWY2EeOtYrwFsHxtRg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xqo_BmY2EeOtYrwFsHxtRg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xqo_B2Y2EeOtYrwFsHxtRg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_xqVdAWY2EeOtYrwFsHxtRg" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="model.ecore#//AN_TYPE"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xqVdAmY2EeOtYrwFsHxtRg"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_xpvnIWY2EeOtYrwFsHxtRg"/>
+  <element xmi:type="ecore:EPackage" href="model.ecore#/"/>
+</notation:Diagram>

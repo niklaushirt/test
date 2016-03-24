@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1386672727905" createdUser="ue60952" id="1a02d625:142dc21920d:-7e5e" selfDescribing="wasd85mcta3.sbb.ch (10.104.185.48)" type="host_machine_resource" updatedTimestamp="1386672727905" updatedUser="ue60952" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig host_address="10.104.185.48" user_host_name="wasd85mcta3.sbb.ch"/>
+</editableResource>

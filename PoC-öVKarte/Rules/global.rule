@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rule_cache version="1.0">
+   <qpath>
+      <match path="speichereGp___AUSGABE___SpeichereGpAntwortWS/{http:////www.sbb.ch//mct//v76//anbieter//geschaeftspartner//comm}SpeichereGpAntwortWS/{http:////www.sbb.ch//mct//v76//anbieter//geschaeftspartner//comm}geschaeftspartner/{http:////www.sbb.ch//mct//v76//anbieter//geschaeftspartner//comm}oevKundennummer/text()">
+         <rule comment="">
+            <fieldActionGroup>
+               <fieldAction type="1">
+                  <fieldAction exp="[0-9][0-9][0-9][0-9][0-9][0-9][0-9]" type="2"/>
+               </fieldAction>
+               <fieldAction type="1">
+                  <fieldAction type="5"/>
+               </fieldAction>
+               <fieldAction type="1">
+                  <fieldAction type="6"/>
+               </fieldAction>
+            </fieldActionGroup>
+            <contexts>
+               <context>DEFAULT</context>
+            </contexts>
+         </rule>
+      </match>
+      <match path="sucheGp___AUSGABE___SucheGpAntwortWS/{http:////www.sbb.ch//mct//v76//anbieter//geschaeftspartner//comm}SucheGpAntwortWS/{http:////www.sbb.ch//mct//v76//anbieter//geschaeftspartner//comm}geschaeftspartner/{http:////www.sbb.ch//mct//v76//anbieter//geschaeftspartner//comm}oevKundennummer/text()">
+         <rule comment="">
+            <fieldActionGroup>
+               <fieldAction type="1">
+                  <fieldAction exp="^\d{7}$" type="2"/>
+               </fieldAction>
+               <fieldAction type="1">
+                  <fieldAction type="5"/>
+               </fieldAction>
+               <fieldAction type="1">
+                  <fieldAction type="6"/>
+               </fieldAction>
+            </fieldActionGroup>
+            <contexts>
+               <context>DEFAULT</context>
+            </contexts>
+         </rule>
+      </match>
+      <match path="sucheGp___AUSGABE___SucheGpAntwortWS/{http:////www.sbb.ch//mct//v76//anbieter//geschaeftspartner//comm}SucheGpAntwortWS/{http:////www.sbb.ch//mct//v76//anbieter//geschaeftspartner//comm}geschaeftspartner/{http:////www.sbb.ch//mct//v76//anbieter//geschaeftspartner//comm}grundkartennummer/text()">
+         <rule comment="">
+            <fieldActionGroup>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="rQVSAS" type="0"/>
+               </fieldAction>
+               <fieldAction type="1">
+                  <fieldAction type="5"/>
+               </fieldAction>
+               <fieldAction type="1">
+                  <fieldAction type="6"/>
+               </fieldAction>
+            </fieldActionGroup>
+            <contexts>
+               <context>DEFAULT</context>
+            </contexts>
+         </rule>
+      </match>
+   </qpath>
+</rule_cache>

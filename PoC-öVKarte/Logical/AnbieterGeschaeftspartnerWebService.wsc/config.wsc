@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1386672725424" createdUser="ue60952" id="1a02d625:142dc21920d:-7eba" selfDescribing="AnbieterGeschaeftspartnerWebService (2)" syncSourceDetails="1a02d625:142dc21920d:-7eaa" type="wsdl_service_component" updatedTimestamp="1386672725440" updatedUser="ue60952" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig>
+      <wsdl id="1a02d625:142dc21920d:-7ebb" name="AnbieterGeschaeftspartnerWebService (2)"/>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1387464045093" createdUser="Administrator" id="221916d7:142dc5b7076:-60b7:-839731436:-807255066" selfDescribing="os_GeschaeftspartnerLesen" type="adhocmonitor_resource" updatedTimestamp="1387464045093" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig adhocName="os_GeschaeftspartnerLesen" avgTime="0" color="200,255,255" dependencies="" invokeDynamicFormatterID="http.text.message.type" invokeFormatterID="HTTP_Message" invokeTransportID="221916d7:142dc5b7076:-60b7:-1191600523:408339756" maxTime="0" mepEndSchemaID="221916d7:142dc5b7076:-60b6" mepEndSchemaNodeFormatter="doc_lit" mepEndSchemaroot="os_GeschaeftspartnerLesen___OUTPUT___GeschaeftspartnerLesenResponse" mepEndUsed="true" mepStartSchemaID="221916d7:142dc5b7076:-60b6" mepStartSchemaNodeFormatter="doc_lit" mepStartSchemaroot="os_GeschaeftspartnerLesen___INPUT___GeschaeftspartnerLesenRequest" mepType="IN_OUT" minTime="0" stubDynamicFormatterID="http.text.message.type" stubFormatterID="HTTP_Message" stubTransportID="221916d7:142dc5b7076:-60b7:-1191600523:408339756">
+      <invokeHeaderNode meTy="Message" type="12" version="1.2">
+         <nodeProcessor id="doc_lit">
+            <extension enabled="true" id="ws.security">
+               <_c MSOption="true"/>
+            </extension>
+            <extension enabled="false" id="ws.addressing"/>
+            <extension enabled="false" id="soap.headers"/>
+            <extension enabled="false" id="soap.message">
+               <_c soapVersion="http://schemas.xmlsoap.org/soap/envelope/"/>
+            </extension>
+         </nodeProcessor>
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+         <_c meTy="String" name="MessageType" type="7" value="http.text.message.type" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="http.text.message.type" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="Method" type="7" value="POST" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="POST" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="URL" type="7" value="/XISOAPAdapter/MessageServlet" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="/XISOAPAdapter/MessageServlet" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+            <fieldActionGroup>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+               </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="Version" type="7" value="" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                  </fieldAction>
+               </fieldActionGroup>
+               <_c name="SOAPAction" type="7" value="&quot;http://sap.com/xi/WebService/soap1.1&quot;" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction type="0">
+                        <fieldAction exp="&quot;http://sap.com/xi/WebService/soap1.1&quot;" type="0"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </_c>
+            </_c>
+            <_c meTy="Boolean" name="followRedirects" type="8" value="true" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction exp="true" type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+         </_c>
+      </invokeHeaderNode>
+      <stubHeaderConfig>
+         <_c MessageType="http.text.message.type" URL="/XISOAPAdapter/MessageServlet" allowSubPath="true" consumerType="Participate" filterHeaders="true" filterResourcePath="true">
+            <filterHeadersList>
+               <header name="SOAPAction" value="&quot;http://sap.com/xi/WebService/soap1.1&quot;"/>
+            </filterHeadersList>
+         </_c>
+      </stubHeaderConfig>
+      <invokeEndHeaderNode name="" type="12" version="1.2">
+         <nodeProcessor id="doc_lit">
+            <extension enabled="true" id="ws.security">
+               <_c MSOption="true"/>
+            </extension>
+            <extension enabled="false" id="ws.addressing"/>
+            <extension enabled="false" id="soap.headers"/>
+            <extension enabled="false" id="soap.message">
+               <_c soapVersion="http://schemas.xmlsoap.org/soap/envelope/"/>
+            </extension>
+         </nodeProcessor>
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+      </invokeEndHeaderNode>
+   </resourceConfig>
+</editableResource>

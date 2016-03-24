@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1386672727109" createdUser="ue60952" id="1a02d625:142dc21920d:-7eba:1046696838:-807255066" type="operation_resource" updatedTimestamp="1386672727109" updatedUser="ue60952" version="1.0">
+   <syncdetails compare="AnbieterGeschaeftspartnerWebService/holeGp" lastSynced="1386672727109" sourceid="1a02d625:142dc21920d:-7eba">
+      <sourcepath path="AnbieterGeschaeftspartnerWebService/holeGp"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig avgTime="0" color="200,255,255" dependencies="1a02d625:142dc21920d:-7ebb,1a02d625:142dc21920d:-7eba:-1332531082:408339756" invokeDynamicFormatterID="http.text.message.type" invokeFormatterID="HTTP_Message" invokeTransportID="1a02d625:142dc21920d:-7eba:-1332531082:408339756" maxTime="0" mepEndSchemaID="1a02d625:142dc21920d:-7ebb" mepEndSchemaNodeFormatter="doc_lit" mepEndSchemaroot="holeGp___AUSGABE___HoleGpAntwortWS" mepEndUsed="true" mepStartSchemaID="1a02d625:142dc21920d:-7ebb" mepStartSchemaNodeFormatter="doc_lit" mepStartSchemaroot="holeGp___EINGABE___HoleGpAnfrageWS" mepType="IN_OUT" minTime="0" stubDynamicFormatterID="http.text.message.type" stubFormatterID="HTTP_Message" stubTransportID="1a02d625:142dc21920d:-7eba:-1332531082:408339756">
+      <invokeHeaderNode meTy="Message" type="12" version="1.2">
+         <nodeProcessor id="doc_lit">
+            <extension enabled="true" id="ws.security"/>
+            <extension enabled="false" id="ws.addressing"/>
+            <extension enabled="false" id="soap.headers"/>
+            <extension enabled="false" id="soap.message">
+               <_c soapVersion="http://schemas.xmlsoap.org/soap/envelope/"/>
+            </extension>
+         </nodeProcessor>
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+         <_c meTy="String" name="MessageType" type="7" value="http.text.message.type" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="http.text.message.type" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="Method" type="7" value="POST" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="POST" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="URL" type="7" value="/mct/v76/anbieter/vertrieb/AnbieterGeschaeftspartnerWebService" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="/mct/v76/anbieter/vertrieb/AnbieterGeschaeftspartnerWebService" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+            <fieldActionGroup>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+               </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="Version" type="7" value="" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                  </fieldAction>
+               </fieldActionGroup>
+               <_c name="SOAPAction" type="7" value="&quot;holeGp&quot;" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction type="0">
+                        <fieldAction exp="&quot;holeGp&quot;" type="0"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </_c>
+            </_c>
+            <_c meTy="Boolean" name="followRedirects" type="8" value="true" version="1.2">
+               <fieldActionGroup>
+                  <fieldAction type="0">
+                     <fieldAction exp="true" type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+            </_c>
+         </_c>
+      </invokeHeaderNode>
+      <stubHeaderConfig>
+         <_c MessageType="http.text.message.type" URL="/mct/v76/anbieter/vertrieb/AnbieterGeschaeftspartnerWebService" allowSubPath="true" consumerType="Participate" filterHeaders="true" filterResourcePath="true">
+            <filterHeadersList>
+               <header name="SOAPAction" value="&quot;holeGp&quot;"/>
+            </filterHeadersList>
+         </_c>
+      </stubHeaderConfig>
+      <invokeEndHeaderNode name="" type="12" version="1.2">
+         <nodeProcessor id="doc_lit">
+            <extension enabled="true" id="ws.security"/>
+            <extension enabled="false" id="ws.addressing"/>
+            <extension enabled="false" id="soap.headers"/>
+            <extension enabled="false" id="soap.message">
+               <_c soapVersion="http://schemas.xmlsoap.org/soap/envelope/"/>
+            </extension>
+         </nodeProcessor>
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+      </invokeEndHeaderNode>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1386678655614" createdUser="ue60952" id="221916d7:142dc5b7076:-772a" selfDescribing="Identity Store [C:/Program Files/IBM/RIT-Platform/httptcp/greenhat.jks]" type="identity_store_resource" updatedTimestamp="1387273342786" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig keystoreUrl="C:/Program Files/IBM/RIT-Platform/httptcp/greenhat.jks" password="#com.ghc.1!7421210E7E12128E4ADE4475E34FA2F8727011625526" url="Physical/Identity Store [C__IBM_RIT-Platform_httptcp_greenhat.jks].gis">
+      <KeyAliases entry0="cn=https proxy, ou=green hat, o=ibm, st=london, c=uk" entry1="mykey"/>
+      <KeyPasswords entry0="#com.ghc.1!2729" entry1="#com.ghc.1!e974E357A2EB7262116255330CB56A4340E1210D7E16"/>
+   </resourceConfig>
+</editableResource>

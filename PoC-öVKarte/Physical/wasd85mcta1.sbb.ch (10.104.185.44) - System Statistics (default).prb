@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1386682857167" createdUser="ue60952" id="221916d7:142dc5b7076:-6e61" selfDescribing="wasd85mcta1.sbb.ch (10.104.185.44) - System Statistics (default)" type="probe_resource" updatedTimestamp="1386682857167" updatedUser="ue60952" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="default" physicalResourceID="221916d7:142dc5b7076:-6e6e" probeID="plugin.custom.SysStat">
+      <SysStatDatasource allProcesses="true" configuration="default"/>
+   </resourceConfig>
+</editableResource>

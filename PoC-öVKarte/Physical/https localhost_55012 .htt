@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1386675900125" createdUser="ue60952" id="-12451623:142dc239122:-7995:1704227889:1544155186" selfDescribing="https localhost:55012 " type="http_transport" updatedTimestamp="1387298417205" updatedUser="Administrator" version="1.0">
+   <syncdetails compare="http localhost:7819 " lastSynced="1386675900125" sourceid="-12451623:142dc239122:-7995">
+      <sourcepath path="EchoPortBindingService/EchoPortBindingSoap11"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!8cbb" credType="0" credUser="" httpHost="localhost" httpNtlmDomain="" httpPort="55012" httpProxyHost="localhost" httpProxyPassword="#com.ghc.1!46b6" httpProxyPort="3129" httpProxyUsername="" httpResourceRoot="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" performValidation="false" providedIdentityStore="221916d7:142dc5b7076:-772a" providedKeySelected="mykey" recType="PROXY" specifyProvidedCertificate="true" specifyTrustedCertificate="false" trustedIdentityStore="221916d7:142dc5b7076:-772a" useSSL="true" verifyCerts="false" version="3">
+         <serverAuthentication>
+            <authenticationConfig enabled="false" realm="" type="1"/>
+            <authenticationConfig algorithm="" authParams="" domain="" enabled="false" nonce="false" opaque="" qop="" realm="" stale="" type="2"/>
+            <authenticationConfig enabled="false" type="3"/>
+            <authenticationConfig enabled="false" type="5"/>
+         </serverAuthentication>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1387464755733" createdUser="Administrator" id="-3ea66f17:1430b4b57f1:-7363" type="db_test_data" updatedTimestamp="1387466955384" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig autoMapColumns="true" inputData="sap_gp_persist" isQueryBased="false" loop="false" treatEmptyStringAsNull="false" treatTextAsNull="false" treatTextAsNullValue="">
+      <logicaldbserverid id="-3ea66f17:1430b4b57f1:-787f" lkiconpath="com/ghc/ghTester/images/data.png" lkname="PERSISTENCE" lkpath="ContractBinding/PERSISTENCE"/>
+   </resourceConfig>
+</editableResource>

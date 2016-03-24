@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1387463641974" createdUser="Administrator" id="-69fdd30f:1430b452278:-7c66" selfDescribing="BusinessPartnerBinding" syncSourceDetails="1a02d625:142dc21920d:-7eaa" type="wsdl_service_component" updatedTimestamp="1387463641989" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig>
+      <wsdl id="-69fdd30f:1430b452278:-7c65" name="BusinessPartnerBinding"/>
+   </resourceConfig>
+</editableResource>

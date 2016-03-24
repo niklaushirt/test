@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1386672727327" createdUser="ue60952" id="1a02d625:142dc21920d:-7eba:-1332531082:408339756" type="infrastructure_component_resource" updatedTimestamp="1386672727327" updatedUser="ue60952" version="1.1">
+   <syncdetails compare="AnbieterGeschaeftspartnerWebService/AnbieterGeschaeftspartnerWebServicePort" lastSynced="1386672727327" sourceid="1a02d625:142dc21920d:-7eba">
+      <sourcepath path="AnbieterGeschaeftspartnerWebService/AnbieterGeschaeftspartnerWebServicePort"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig infrastructureType="http_transport">
+      <recordingSettings colour="145,145,255"/>
+   </resourceConfig>
+</editableResource>

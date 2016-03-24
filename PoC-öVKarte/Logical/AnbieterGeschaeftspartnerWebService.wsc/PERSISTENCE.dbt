@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1387385711618" createdUser="Administrator" id="57223de3:14306824ffe:-699c" type="db_test_data" updatedTimestamp="1387385720666" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig autoMapColumns="true" inputData="an_gp" isQueryBased="false" loop="false" treatEmptyStringAsNull="false" treatTextAsNull="false" treatTextAsNullValue="">
+      <logicaldbserverid id="57223de3:14306824ffe:-6c5c" lkiconpath="com/ghc/ghTester/images/data.png" lkname="PERSISTENCE" lkpath="AnbieterGeschaeftspartnerWebService/PERSISTENCE"/>
+   </resourceConfig>
+</editableResource>

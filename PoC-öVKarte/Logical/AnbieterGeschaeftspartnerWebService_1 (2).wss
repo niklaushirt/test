@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1387463579215" createdUser="Administrator" id="-69fdd30f:1430b452278:-7e70" selfDescribing="AnbieterGeschaeftspartnerWebService_1" type="wsdl_schema" updatedTimestamp="1387463579215" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig schemaSourceTemplateName="WSDL">
+      <schemaSourceConfig sourceType="101" uri="C:\Users\Administrator\Desktop\SBB_POC\AnbieterGeschaeftsPartner\AnbieterGeschaeftspartnerWebService_1.wsdl"/>
+   </resourceConfig>
+</editableResource>
