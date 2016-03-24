@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1339075097393" createdUser="Administrator" id="c373e4f:137c70fcd0d:-7e3f" selfDescribing="IBM Application Server localhost:8880" type="mq_app_server" updatedTimestamp="1356029118509" updatedUser="Administrator" version="2.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig hostname="localhost" key_store_id="" password="#com.ghc.1!e0bf" port="2809" soap_port="8880" trust_store_id="" username=""/>
+</editableResource>

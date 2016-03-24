@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1339074854343" createdUser="Administrator" id="c373e4f:137c70fcd0d:-7ea9" selfDescribing="localhost (127.0.0.1)" type="host_machine_resource" updatedTimestamp="1389203086288" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig host_address="127.0.0.1" user_host_name="localhost">
+      <roles>
+         <identity name="ssh"/>
+         <identity name="smb"/>
+      </roles>
+   </resourceConfig>
+</editableResource>

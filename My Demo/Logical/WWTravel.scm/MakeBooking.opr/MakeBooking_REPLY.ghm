@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?><a3Message _version="1.1" createdTimestamp="1419326069261" createdUser="Administrator" id="3cffb81d:14a6207345d:-7b5c" type="message_resource" updatedTimestamp="1419326069261" updatedUser="Administrator" version="1.2">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <transport name="52b18e4b:139b0eea6d3:-7ec3"/>
+   <formatter name="mq_dynamic_msg_formatter"/>
+   <headerMessage meTy="Message" name="" type="12" version="1.2">
+      <fieldActionGroup>
+         <fieldAction enabled="false" type="1">
+            <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+         </fieldAction>
+      </fieldActionGroup>
+      <_c meTy="Date-Time" name="rcvdTimestamp" type="11" version="1.2">
+         <fieldActionGroup>
+            <fieldAction type="0">
+               <fieldAction type="0"/>
+            </fieldAction>
+         </fieldActionGroup>
+      </_c>
+      <_c meTy="Message" name="GrpCoherence" type="12" version="1.2">
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+         <_c meTy="ByteArray" name="msgId" type="14" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="ByteArray" name="correlId" type="14" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="ByteArray" name="grpId" type="14" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Integer" name="msgType" type="2" value="8" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="8" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="8" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Integer" name="msgSeqNum" type="2" value="1" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="1" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="1" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Integer" name="offset" type="2" value="0" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="0" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="0" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Integer" name="origLength" type="2" value="-1" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="-1" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="-1" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+      </_c>
+      <_c meTy="Message" name="GrpConfig" type="12" version="1.2">
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+         <_c meTy="Integer" name="encoding" type="2" value="273" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="273" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="273" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Integer" name="charSet" type="2" value="1208" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="1208" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="1208" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="format" type="7" value="MQSTR   " version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="MQSTR   " type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="MQSTR   " type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Integer" name="priority" type="2" value="4" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="4" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="4" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Integer" name="persistence" type="2" value="0" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="0" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="0" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Integer" name="msgFlags" type="2" value="0" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="0" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="0" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+      </_c>
+      <_c meTy="Message" name="GrpReport" type="12" version="1.2">
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+         <_c meTy="Integer" name="report" type="2" value="0" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="0" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="0" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Integer" name="expiry" type="2" value="-1" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="-1" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="-1" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Integer" name="feedback" type="2" value="0" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="0" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="0" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Integer" name="backedOut" type="2" value="0" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="0" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="0" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="replyQueue" type="7" value="" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="replyQueueMgr" type="7" value="QM_wwtravel" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="QM_wwtravel" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="QM_wwtravel" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+      </_c>
+      <_c meTy="Message" name="GrpIdentContext" type="12" version="1.2">
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+         <_c meTy="String" name="userId" type="7" value="SYSTEM      " version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="SYSTEM      " type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="SYSTEM      " type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="ByteArray" name="accountingToken" type="14" value="060101120000000000000000000000000000000000000000000000000000000B" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="060101120000000000000000000000000000000000000000000000000000000B" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="060101120000000000000000000000000000000000000000000000000000000B" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="appIdData" type="7" value="                                " version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="                                " type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="                                " type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+      </_c>
+      <_c meTy="Message" name="GrpOriginContext" type="12" version="1.2">
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+         <_c meTy="Integer" name="putAppType" type="2" value="11" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="11" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="11" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="putAppName" type="7" value="\AppServer\java\bin\java.exe" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="\AppServer\java\bin\java.exe" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="\AppServer\java\bin\java.exe" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="Date-Time" name="putDatTime" type="11" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="appOriginData" type="7" value="    " version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="    " type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="    " type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+      </_c>
+      <_c meTy="Message" name="Properties" type="12" version="1.2">
+         <fieldActionGroup>
+            <fieldAction enabled="false" type="1">
+               <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+            </fieldAction>
+         </fieldActionGroup>
+         <_c meTy="String" name="com.greenhat.original.queue.name" type="7" value="wwtravel.booking.reply" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="wwtravel.booking.reply" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="wwtravel.booking.reply" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+         <_c meTy="String" name="mcd.Msd" type="7" value="jms_text" version="1.2">
+            <fieldActionGroup>
+               <fieldAction type="0">
+                  <fieldAction exp="jms_text" type="0"/>
+               </fieldAction>
+               <fieldAction enabled="false" type="1">
+                  <fieldAction enabled="false" exp="jms_text" type="0"/>
+               </fieldAction>
+            </fieldActionGroup>
+         </_c>
+      </_c>
+      <_c meTy="String" name="queueName" type="7" value="wwtravel.booking.reply" version="1.2">
+         <fieldActionGroup>
+            <fieldAction type="0">
+               <fieldAction exp="wwtravel.booking.reply" type="0"/>
+            </fieldAction>
+            <fieldAction enabled="false" type="1">
+               <fieldAction enabled="false" exp="wwtravel.booking.reply" type="0"/>
+            </fieldAction>
+         </fieldActionGroup>
+      </_c>
+   </headerMessage>
+   <bodyMessage assocdefid="MQ Message" name="MQ Message" sch="MQ Message" type="12" version="1.2">
+      <fieldActionGroup>
+         <fieldAction enabled="false" type="1">
+            <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+         </fieldAction>
+      </fieldActionGroup>
+      <_c coreTypeInt="7" coreTypeName="String" name="text" nodeFormatter="XML" sch="MQ Message" type="12" version="1.2">
+         <fieldExpander fieldExpanderID="XML_EXPANDER" fieldSchema="31e05e28:13f57dde228:-7bad" fieldSchemaRoot="tns:bookFlightResponse">
+            <property name="XML.cdata" value="false"/>
+            <property name="XML.space" value="false"/>
+            <property name="Multi-line indented" value="Single line"/>
+            <property name="XML.declaration" value="true"/>
+            <property name="XML.encoding" value="UTF-8"/>
+            <property name="XML.nullvalues" value="false"/>
+            <property name="XML.xmlFormat" value="Single line"/>
+            <property name="XML.normalise" value="true"/>
+         </fieldExpander>
+         <contentTree>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;tns:bookFlightResponse xmlns:tns="http://reservations.wwtravel.com/schemas/BookFlightResponse"&gt;&lt;tns:status&gt;SUCCESS&lt;/tns:status&gt;&lt;tns:newReservationNumber&gt;A00023&lt;/tns:newReservationNumber&gt;&lt;/tns:bookFlightResponse&gt;<defaultActions>
+               <defaultMessageActions>
+                  <fieldActionGroup>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" matching="PREFERENCE" type="101"/>
+                     </fieldAction>
+                     <fieldAction type="0">
+                        <fieldAction type="100"/>
+                     </fieldAction>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction enabled="false" type="5"/>
+                     </fieldAction>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction enabled="false" type="6" typeActionAllType="true" typeActionMetaType="false"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </defaultMessageActions>
+               <defaultScalarActions>
+                  <fieldActionGroup>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction enabled="false" type="0"/>
+                     </fieldAction>
+                     <fieldAction type="0">
+                        <fieldAction type="0"/>
+                     </fieldAction>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction enabled="false" type="5"/>
+                     </fieldAction>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction enabled="false" type="6" typeActionAllType="true" typeActionMetaType="false"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </defaultScalarActions>
+            </defaultActions>
+            <updates>
+               <updateField path="/text/tns:bookFlightResponse">
+                  <_c assocdefid="tns:bookFlightResponse"/>
+               </updateField>
+            </updates>
+         </contentTree>
+         <fieldActionGroup>
+            <fieldAction type="0">
+               <fieldAction type="4"/>
+            </fieldAction>
+            <fieldAction enabled="false" type="1">
+               <fieldAction enabled="false" type="7"/>
+            </fieldAction>
+         </fieldActionGroup>
+      </_c>
+   </bodyMessage>
+   <tagDataStore inputMode="NONE" outputMode="NONE"/>
+</a3Message>

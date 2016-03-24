@@ -1,0 +1,2 @@
+grouping,passengerFirstName,passengerLastName,status,passengerGender,flightNumber,postcode,addressLine2,cardSecurityCode,cardType,newReservationNumber,addressLine1,passengerMiddleName,price,weekNumber,cardNumber,cardHoldersName
+1,Niklaus,Hirt,SUCCESS,M,WW297,1234,Address2,123,multinational,A00011,Address1,W,10,49,1234213412341234,Niklaus Hirt

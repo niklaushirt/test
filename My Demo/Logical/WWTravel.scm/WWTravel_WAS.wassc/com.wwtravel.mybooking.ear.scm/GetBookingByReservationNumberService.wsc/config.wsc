@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1371633455069" createdUser="Administrator" id="-5ccefb7d:13f3e2da4b6:-7ea2:1050284812:-1671254824" selfDescribing="GetBookingByReservationNumberService" type="wsdl_service_component" updatedTimestamp="1371633455069" updatedUser="Administrator" version="1.0">
+   <syncdetails compare="GetBookingByReservationNumberService" lastSynced="1371633455069" sourceid="-5ccefb7d:13f3e2da4b6:-7ea2">
+      <sourcepath path="com.wwtravel.mybooking.ear"/>
+      <sourcepath path="GetBookingByReservationNumberService"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig>
+      <wsdl id="-5ccefb7d:13f3e2da4b6:-7ea2:-1647736263:475555292" name="GetBookingByReservationNumberService"/>
+   </resourceConfig>
+</editableResource>

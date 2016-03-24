@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1371633455553" createdUser="Administrator" id="-5ccefb7d:13f3e2da4b6:-7ea2:121272789:2111360201" selfDescribing="JMS Destination [corbaloc::QVMW056:2809]" type="jms_destination_transport" updatedTimestamp="1371633455553" updatedUser="Administrator" version="1.0">
+   <syncdetails compare="JMS Destination [corbaloc::QVMW056:2809]" lastSynced="1371633455553" sourceid="-5ccefb7d:13f3e2da4b6:-7ea2">
+      <sourcepath path="com.ibm.websphere.naming.WsnInitialContextFactory"/>
+      <sourcepath path="corbaloc::QVMW056:2809"/>
+      <sourcepath path=""/>
+      <sourcepath path="jms/ConnectionFactory"/>
+      <sourcepath path="jms_destination_transport"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="JMS Destination">
+      <_c JNDIPassword="#com.ghc.1!20e5" JNDIUser="" OriginalConnectionPassword="#com.ghc.1!6602" OriginalConnectionUser="" Password="#com.ghc.1!d286" ReuseJNDIAuthentication="true" User="" cf="jms/ConnectionFactory" correlationIdMatchesRequestToResponse="false" icf="com.ibm.websphere.naming.WsnInitialContextFactory" isUsingJNDI="true" messageIdMatchesRequestToResponse="false" serverURL="" url="corbaloc::QVMW056:2809" useJNDIDestination="true">
+         <initialContextProperties/>
+      </_c>
+   </resourceConfig>
+</editableResource>

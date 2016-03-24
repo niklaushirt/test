@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>logical.props Diagram Properties</comment>
+<entry key="-153a05:137dbb8578c:-7e5a">565.31226,468.0</entry>
+<entry key="-153a05:137dbb8578c:-7e5a:-817575104:-807255066">487.83163,483.0</entry>
+<entry key="-153a05:137dbb8578c:-7e5a:1220038982:408339756">679.0,482.0</entry>
+<entry key="-153a05:137dbb8578c:-7e5a:701313878:-807255066">487.83163,483.0</entry>
+<entry key="-49442fcf:145175cf5bc:-7df6">65.0,65.0</entry>
+<entry key="-5ccefb7d:13f3e2da4b6:-7ea2">-4863.2495,1056.75</entry>
+<entry key="-5ccefb7d:13f3e2da4b6:-7ea2:-1664193423:-1671254824">-5020.8496,1081.8965</entry>
+<entry key="-5ccefb7d:13f3e2da4b6:-7ea2:-722095653:408339756">-4649.6494,936.8965</entry>
+<entry key="-5ccefb7d:13f3e2da4b6:-7ea2:-829001830:-1671254824">-4822.1484,871.8965</entry>
+<entry key="-5ccefb7d:13f3e2da4b6:-7ea2:1050284812:-1671254824">-5020.8496,976.8965</entry>
+<entry key="-5ccefb7d:13f3e2da4b6:-7ea2:121272789:408339756">-4919.6865,1311.0</entry>
+<entry key="-5ccefb7d:13f3e2da4b6:-7ea2:1572708256:-1671254824">-5020.032,871.8965</entry>
+<entry key="-5ccefb7d:13f3e2da4b6:-7ea2:505115740:408339756">-4649.6494,831.8965</entry>
+<entry key="-5ccefb7d:13f3e2da4b6:-7ea2:57122094:-1834518822">-4921.499,961.8965</entry>
+<entry key="-5ccefb7d:13f3e2da4b6:-7ea2:679244146:408339756">-4919.6865,1196.8965</entry>
+<entry key="-756cd5d1:14ac3ed7b07:-7c07">-5384.043,1373.5</entry>
+<entry key="-756cd5d1:14ac3ed7b07:-7c6f">-5384.043,1268.5</entry>
+<entry key="-7ed1f07:139b105848d:-7e2b">-5095.7715,1174.0</entry>
+<entry key="11bc246e:139b0579948:-7d29">209.16507,283.28125</entry>
+<entry key="11bc246e:139b0579948:-7d2a">517.16504,169.28125</entry>
+<entry key="11bc246e:139b0579948:-7e79">841.66504,353.78125</entry>
+<entry key="1a45c81d:139b609f3ee:-7cca">429.31226,579.5</entry>
+<entry key="1a45c81d:139b609f3ee:-7cca:-817575104:-807255066">320.83163,645.5</entry>
+<entry key="1a45c81d:139b609f3ee:-7cca:1220038982:408339756">574.0,586.5</entry>
+<entry key="1a45c81d:139b609f3ee:-7cca:701313878:-807255066">321.83167,543.5</entry>
+<entry key="2b835765:13bb9a23bed:-7e8d">337.39642,257.5</entry>
+<entry key="2b835765:13bb9a23bed:-7e8d:-817575104:-807255066">219.0,350.0</entry>
+<entry key="2b835765:13bb9a23bed:-7e8d:1220038982:408339756">514.0,298.0</entry>
+<entry key="2b835765:13bb9a23bed:-7e8d:701313878:-807255066">195.0,195.0</entry>
+<entry key="4523ab07:139b571db25:-7de8">-5095.7715,1311.0</entry>
+<entry key="483704c6:137db512c48:-7c6c">201.58163,629.5</entry>
+<entry key="483704c6:137db512c48:-7c6c:-817575104:-807255066">201.83163,644.5</entry>
+<entry key="483704c6:137db512c48:-7c6c:1220038982:408339756">428.0,644.5</entry>
+<entry key="483704c6:137db512c48:-7c6c:701313878:-807255066">201.83163,644.5</entry>
+<entry key="52b18e4b:139b0eea6d3:-7dab">-5339.7715,1176.0</entry>
+<entry key="52b18e4b:139b0eea6d3:-7dac">-5094.8574,1046.0</entry>
+<entry key="52b18e4b:139b0eea6d3:-7ec3">-4814.1074,1177.0</entry>
+<entry key="68f2d077:13bb9c5551e:-7e97">65.0,65.0</entry>
+<entry key="68f2d077:13bb9c5551e:-7e97:-817575104:-807255066">260.0,260.0</entry>
+<entry key="68f2d077:13bb9c5551e:-7e97:1220038982:408339756">130.0,130.0</entry>
+<entry key="68f2d077:13bb9c5551e:-7e97:701313878:-807255066">195.0,195.0</entry>
+<entry key="845dfa:146606be780:-7db6">-7009.7573,-1812.0</entry>
+<entry key="845dfa:146606be780:-7db6:-817575104:-807255066">-7122.029,-1744.5</entry>
+<entry key="845dfa:146606be780:-7db6:1220038982:408339756">-6863.279,-1790.5</entry>
+<entry key="845dfa:146606be780:-7db6:701313878:-807255066">-7122.029,-1849.5</entry>
+<entry key="c373e4f:137c70fcd0d:-7c71">458.83167,126.5</entry>
+<entry key="c373e4f:137c70fcd0d:-7c72">462.83167,266.5</entry>
+<entry key="c373e4f:137c70fcd0d:-7c73">465.83167,398.5</entry>
+<entry key="c373e4f:137c70fcd0d:-7c74">179.83162,266.5</entry>
+<entry key="c373e4f:137c70fcd0d:-7e30">-4817.1074,1309.0</entry>
+<entry key="c373e4f:137c70fcd0d:-7e48">-1460.5337,-721.7656</entry>
+<entry key="c373e4f:137c70fcd0d:-7ee2">698.83167,266.5</entry>
+<entry key="c373e4f:137c70fcd0d:-7ee7">-5012.7104,1041.75</entry>
+</properties>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1371633455537" createdUser="Administrator" id="-5ccefb7d:13f3e2da4b6:-7ea2:-722095653:408339756" type="infrastructure_component_resource" updatedTimestamp="1371633455537" updatedUser="Administrator" version="1.1">
+   <syncdetails compare="jdbc:db2://QVMW056:50000/WWTRAVEL/com.ibm.db2.jcc.DB2Driver/traveluser" lastSynced="1371633455537" sourceid="-5ccefb7d:13f3e2da4b6:-7ea2">
+      <sourcepath path="jdbc:db2://QVMW056:50000/WWTRAVEL"/>
+      <sourcepath path="com.ibm.db2.jcc.DB2Driver"/>
+      <sourcepath path="traveluser"/>
+   </syncdetails>
+   <documentation>
+      <description externalID="Websphere:_Websphere_Config_Data_Display_Name=WWTravel XA DataSource,_Websphere_Config_Data_Type=DataSource,_Websphere_Config_Data_Id=cells/QVMW056Node01Cell|resources.xml#DataSource_1346943944697,_WEBSPHERE_CONFIG_SESSION=anonymous1371633440917"/>
+   </documentation>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig infrastructureType="database_connection_resource">
+      <recordingSettings colour="90,90,145"/>
+   </resourceConfig>
+</editableResource>

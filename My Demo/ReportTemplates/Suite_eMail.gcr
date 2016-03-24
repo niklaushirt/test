@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><customreport id="3cffb81d:14a6207345d:-7d38" name="Suite_eMail">
+   <segment attach="Inline" format="HTML" report="SuiteSummary" text="Here are the test results from %%SUITE/NAME%%&#10;The test was run in %%ENVIRONMENT/NAME%%" type="Report"/>
+   <segment attach="Inline" format="HTML" report="DetailedTestSuite" text="Here are the test results from %%SUITE/NAME%%&#10;The test was run in %%ENVIRONMENT/NAME%%" type="Report"/>
+</customreport>

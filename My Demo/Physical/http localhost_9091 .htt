@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1421084039098" createdUser="Administrator" id="-756cd5d1:14ac3ed7b07:-7c66" selfDescribing="http localhost:9091 " type="http_transport" updatedTimestamp="1421084039098" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!6b59" credType="0" credUser="" httpHost="localhost" httpNtlmDomain="" httpPort="9091" httpProxyHost="" httpProxyPassword="#com.ghc.1!d7b4" httpProxyPort="" httpProxyUsername="" httpResourceRoot="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" performValidation="false" recType="PROXY" specifyProvidedCertificate="false" specifyTrustedCertificate="false" useSSL="false" verifyCerts="false" version="3">
+         <serverAuthentication>
+            <authenticationConfig enabled="false" realm="" type="1"/>
+            <authenticationConfig algorithm="" authParams="" domain="" enabled="false" nonce="false" opaque="" qop="" realm="" stale="" type="2"/>
+            <authenticationConfig enabled="false" type="3"/>
+            <authenticationConfig enabled="false" type="5"/>
+         </serverAuthentication>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>

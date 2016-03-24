@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1371633457893" createdUser="Administrator" id="31e05e28:13f57dde228:-7d92" selfDescribing="JMS Destination [corbaloc::QVMW056:2809] - TIBCO Enterprise Message Service (default)" type="probe_resource" updatedTimestamp="1371633457893" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="default" physicalResourceID="-5ccefb7d:13f3e2da4b6:-7ea2:121272789:2111360201" probeID="ghviewer.plugin.ems">
+      <EMSDatasource configuration="default"/>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1371633455147" createdUser="Administrator" id="-5ccefb7d:13f3e2da4b6:-7ea2:-829001830:-1671254824" selfDescribing="UpdateService" type="wsdl_service_component" updatedTimestamp="1371633455147" updatedUser="Administrator" version="1.0">
+   <syncdetails compare="UpdateService" lastSynced="1371633455147" sourceid="-5ccefb7d:13f3e2da4b6:-7ea2">
+      <sourcepath path="com.wwtravel.mybooking.ear"/>
+      <sourcepath path="UpdateService"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig>
+      <wsdl id="-5ccefb7d:13f3e2da4b6:-7ea2:-1167781217:475555292" name="UpdateService"/>
+   </resourceConfig>
+</editableResource>

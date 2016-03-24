@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1371633777819" createdUser="Administrator" id="31e05e28:13f57dde228:-7bca" selfDescribing="BookFlightRequest" type="xsd_schema" updatedTimestamp="1414478336304" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig schemaSourceTemplateName="XSD">
+      <schemaSourceConfig sourceType="101" uri="C:\Users\Administrator\Desktop\DEMO\RIT\xsd schemas\BookFlightRequest.xsd"/>
+   </resourceConfig>
+</editableResource>

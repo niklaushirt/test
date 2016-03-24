@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1339074748263" createdUser="Administrator" id="c373e4f:137c70fcd0d:-7ebf" type="environment_resource" updatedTimestamp="1421143349631" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig>
+      <evbindings>
+         <evbinding evLogicalItemId="-5ccefb7d:13f3e2da4b6:-7ea2" evPhysicalItemId="c373e4f:137c70fcd0d:-7e3f"/>
+         <evbinding evLogicalItemId="c373e4f:137c70fcd0d:-7e30" evPhysicalItemId="c373e4f:137c70fcd0d:-7e1f"/>
+      </evbindings>
+   </resourceConfig>
+</editableResource>

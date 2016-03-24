@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1371633455365" createdUser="Administrator" id="-5ccefb7d:13f3e2da4b6:-7ea2:2005530323:475555292" selfDescribing="CancellationPort" type="wsdl_schema" updatedTimestamp="1371633455365" updatedUser="Administrator" version="1.0">
+   <syncdetails compare="http://QVMW056:9080/com.wwtravel.mybooking/services/CancellationPort?wsdl" lastSynced="1371633455365" sourceid="-5ccefb7d:13f3e2da4b6:-7ea2">
+      <sourcepath path="com.wwtravel.mybooking.ear"/>
+      <sourcepath path="CancellationService"/>
+      <sourcepath path="CancellationPort"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig schemaSourceTemplateName="WSDL">
+      <schemaSourceConfig sourceType="102" uri="http://QVMW056:9080/com.wwtravel.mybooking/services/CancellationPort?wsdl"/>
+   </resourceConfig>
+</editableResource>

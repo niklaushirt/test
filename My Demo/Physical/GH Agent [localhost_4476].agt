@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1354720726592" createdUser="Administrator" id="77dc748c:13aff507749:-7de6" selfDescribing="GH Agent [localhost:4476]" type="agent_action" updatedTimestamp="1354720726592" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig host="localhost" jmxPort="8765" port="4476"/>
+</editableResource>

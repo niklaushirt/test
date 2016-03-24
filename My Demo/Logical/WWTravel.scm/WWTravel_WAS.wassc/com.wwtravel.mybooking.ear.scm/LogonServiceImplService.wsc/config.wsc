@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1371633455334" createdUser="Administrator" id="-5ccefb7d:13f3e2da4b6:-7ea2:-1664193423:-1671254824" selfDescribing="LogonServiceImplService" type="wsdl_service_component" updatedTimestamp="1371633455334" updatedUser="Administrator" version="1.0">
+   <syncdetails compare="LogonServiceImplService" lastSynced="1371633455334" sourceid="-5ccefb7d:13f3e2da4b6:-7ea2">
+      <sourcepath path="com.wwtravel.mybooking.ear"/>
+      <sourcepath path="LogonServiceImplService"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig>
+      <wsdl id="-5ccefb7d:13f3e2da4b6:-7ea2:1865513040:475555292" name="LogonServiceImplService"/>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1339075233676" createdUser="Administrator" id="c373e4f:137c70fcd0d:-7e1f" selfDescribing="IBM DB2 (Universal) [jdbc:db2://localhost:50000/WWTRAVEL, traveluser]" type="database_connection_resource" updatedTimestamp="1347385690042" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig maxConnections="" poolName="DefaultPoolName" transportName="">
+      <connectionParams driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!56ef7E3712984A804446E348A2A7724B1170" url="jdbc:db2://localhost:50000/WWTRAVEL" user="traveluser">
+         <stubSettings maxRowCount="10000" password="#com.ghc.1!4bdd7E3712984A804446E348A2A7724B1170" schema="DB2ADMIN" url="jdbc:db2://localhost:50000/VDB" user="DB2ADMIN"/>
+         <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+         <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
+      </connectionParams>
+   </resourceConfig>
+</editableResource>

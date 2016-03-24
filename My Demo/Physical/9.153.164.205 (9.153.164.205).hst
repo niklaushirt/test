@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1397035454243" createdUser="Administrator" id="3e008185:1452ba2594f:-7db2" selfDescribing="9.153.164.205 (9.153.164.205)" type="host_machine_resource" updatedTimestamp="1397035454243" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig host_address="9.153.164.205" user_host_name="9.153.164.205"/>
+</editableResource>

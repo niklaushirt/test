@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1401266290737" createdUser="Administrator" id="78f45c22:14641dd3bef:-7dbf" selfDescribing="MQTT Broker [tcp://localhost:1883]" type="mqtt_transport" updatedTimestamp="1401267080584" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="" transportTemplateName="mqtt">
+      <_c Clean="false" ClientID="" Connections="" Host="localhost" KeepAlive="30" Port="1883" ProxyHost="" ProxyPort="" Pwd="#com.ghc.1!6c7b" StubMode="DIRECT" User="" performValidation="false" specifyProvidedCertificate="false" specifyTrustedCertificate="false" useSSL="false" verifyCerts="false"/>
+   </resourceConfig>
+</editableResource>

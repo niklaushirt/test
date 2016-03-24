@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1371633454835" createdUser="Administrator" id="-5ccefb7d:13f3e2da4b6:-7ea2:-722095653:-2144509045" selfDescribing="IBM DB2 (Universal) [jdbc:db2://QVMW056:50000/WWTRAVEL, traveluser]" type="database_connection_resource" updatedTimestamp="1371633454835" updatedUser="Administrator" version="1.0">
+   <syncdetails compare="IBM DB2 (Universal) [jdbc:db2://QVMW056:50000/WWTRAVEL, traveluser]" lastSynced="1371633454835" sourceid="-5ccefb7d:13f3e2da4b6:-7ea2">
+      <sourcepath path="jdbc:db2://QVMW056:50000/WWTRAVEL"/>
+      <sourcepath path="com.ibm.db2.jcc.DB2Driver"/>
+      <sourcepath path="traveluser"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig maxConnections="5" poolName="DefaultPoolName" transportName="">
+      <connectionParams driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!0e7e72551174556E0C9E6A5E40AD21247E12" url="jdbc:db2://QVMW056:50000/WWTRAVEL" user="traveluser">
+         <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!067c" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
+         <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+         <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
+      </connectionParams>
+   </resourceConfig>
+</editableResource>

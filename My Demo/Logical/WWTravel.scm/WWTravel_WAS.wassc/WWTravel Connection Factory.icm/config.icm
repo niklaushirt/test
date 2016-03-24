@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1371633455584" createdUser="Administrator" id="-5ccefb7d:13f3e2da4b6:-7ea2:679244146:408339756" type="infrastructure_component_resource" updatedTimestamp="1371633455584" updatedUser="Administrator" version="1.1">
+   <syncdetails compare="WWTravel Connection Factory" lastSynced="1371633455584" sourceid="-5ccefb7d:13f3e2da4b6:-7ea2">
+      <sourcepath path="QM_wwtravel"/>
+      <sourcepath path="QVMW056"/>
+      <sourcepath path="1414"/>
+      <sourcepath path="SYSTEM.DEF.SVRCONN"/>
+      <sourcepath path=""/>
+   </syncdetails>
+   <documentation>
+      <description externalID="Websphere:_Websphere_Config_Data_Display_Name=WWTravel Connection Factory,_Websphere_Config_Data_Type=MQConnectionFactory,_Websphere_Config_Data_Id=cells/QVMW056Node01Cell|resources.xml#MQConnectionFactory_1346944518812,_WEBSPHERE_CONFIG_SESSION=anonymous1371633440917"/>
+   </documentation>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig infrastructureType="mq_transport">
+      <recordingSettings colour="145,200,35"/>
+   </resourceConfig>
+</editableResource>

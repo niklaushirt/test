@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1371633455412" createdUser="Administrator" id="-5ccefb7d:13f3e2da4b6:-7ea2:505115740:408339756" type="infrastructure_component_resource" updatedTimestamp="1371633455412" updatedUser="Administrator" version="1.1">
+   <syncdetails compare="QVMW056:9080" lastSynced="1371633455412" sourceid="-5ccefb7d:13f3e2da4b6:-7ea2">
+      <sourcepath path="QVMW056"/>
+      <sourcepath path="9080"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig infrastructureType="http_transport">
+      <recordingSettings colour="200,255,255"/>
+   </resourceConfig>
+</editableResource>

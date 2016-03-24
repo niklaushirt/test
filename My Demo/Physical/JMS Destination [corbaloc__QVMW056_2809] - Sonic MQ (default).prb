@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1371633457877" createdUser="Administrator" id="31e05e28:13f57dde228:-7d93" selfDescribing="JMS Destination [corbaloc::QVMW056:2809] - Sonic MQ (default)" type="probe_resource" updatedTimestamp="1371633457877" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="default" physicalResourceID="-5ccefb7d:13f3e2da4b6:-7ea2:121272789:2111360201" probeID="ghviewer.plugin.sonic">
+      <sonicDatasource configuration="default"/>
+   </resourceConfig>
+</editableResource>

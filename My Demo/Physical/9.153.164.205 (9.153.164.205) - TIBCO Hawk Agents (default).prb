@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1397035454732" createdUser="Administrator" id="3e008185:1452ba2594f:-7da9" selfDescribing="9.153.164.205 (9.153.164.205) - TIBCO Hawk Agents (default)" type="probe_resource" updatedTimestamp="1397035454732" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="default" physicalResourceID="3e008185:1452ba2594f:-7db2" probeID="ghviewer.plugin.hawk">
+      <HawkDatasource configuration="default"/>
+   </resourceConfig>
+</editableResource>

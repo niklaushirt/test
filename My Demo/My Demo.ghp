@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><_c buildID="I20120522_1544" comments="Project created on Nov 7, 2012" creationVersion="8.0.0" domain="WW Booking Demo" extDocPrefix="" name="My Demo" owner="Niklaus Hirt" rulesCacheUri="%%PROJECT/ROOT%%Rules" uuid="0000013a-d9da-d2b8-0000-00740b95b6a6">
+   <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+   <serverSettings ghRepositoryURL="http://localhost:7819/RTCP" resultsServerURL="">
+      <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
+         <connectionParams driverClass="com.mysql.jdbc.Driver" password="#com.ghc.1!c34b40E9211C7E1E" url="jdbc:mysql://localhost:3306/resultsdb" user="ibm">
+            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!92c7" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
+            <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="ibm" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+            <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
+         </connectionParams>
+      </dbConnectionParameters>
+   </serverSettings>
+   <permissionsSettings autoLogin="true" host="QVMW056" permFactId="ldap.permissions.factory.none" port="389" pswd="2jmj7l5rSw0yVb/vlWAYkK/YBwk="/>
+   <qualityManagement default="4b146869-3273-4334-9eb4-81fb5e09f15f">
+      <qualityManagementIntegration providerKey="com.ghc.ghtester.rqm.qmintegration.internal.RQMIntegrationProvider" uuid="4b146869-3273-4334-9eb4-81fb5e09f15f">
+         <name value="RQM"/>
+         <project value="JKE Banking (Quality Management)"/>
+         <uri value="https://demo.jazz.com:9443/qm"/>
+      </qualityManagementIntegration>
+   </qualityManagement>
+   <resultPublishers disableAll="false">
+      <publisher enabled="true" from="me@nik.social" host="mail.nik.social" name="eMail" password="#com.ghc.1!4214E353A2BE727F112555310CB2" port="26" subject="Test %%SUITE/RESULT%% in %%SUITE/NAME%%" type="EMAIL" user="me@nik.social">
+         <recipients address="me@nik.social"/>
+      </publisher>
+   </resultPublishers>
+   <publishedResourceInfo>
+      <info domain="Booking System" serverUrl="http://localhost:7819/RTCP" vMajor="1" vMinor="0">
+         <resource id="-26ea264b:13bb9bb1407:-7e5f:-817575104:-807255066"/>
+      </info>
+      <info domain="Booking System" serverUrl="http://localhost:7819/RTCP" vMajor="0" vMinor="9">
+         <resource id="-609a8e8e:142ec456a63:-7e10:-817575104:-807255066"/>
+      </info>
+      <info domain="RIT_Domain" serverUrl="http://localhost:7819/RTCP" vMajor="2" vMinor="0">
+         <resource id="Stubsc373e4f:137c70fcd0d:-7c74"/>
+      </info>
+   </publishedResourceInfo>
+</_c>

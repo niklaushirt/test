@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1371633455646" createdUser="Administrator" id="-5ccefb7d:13f3e2da4b6:-7ea2:121272789:408339756" type="infrastructure_component_resource" updatedTimestamp="1371633455646" updatedUser="Administrator" version="1.1">
+   <syncdetails compare="com.ibm.websphere.naming.WsnInitialContextFactory/corbaloc::QVMW056:2809//jms/ConnectionFactory/jms_destination_transport" lastSynced="1371633455646" sourceid="-5ccefb7d:13f3e2da4b6:-7ea2">
+      <sourcepath path="com.ibm.websphere.naming.WsnInitialContextFactory"/>
+      <sourcepath path="corbaloc::QVMW056:2809"/>
+      <sourcepath path=""/>
+      <sourcepath path="jms/ConnectionFactory"/>
+      <sourcepath path="jms_destination_transport"/>
+   </syncdetails>
+   <documentation>
+      <description externalID="Websphere:_Websphere_Config_Data_Display_Name=WWTravel Connection Factory,_Websphere_Config_Data_Type=MQConnectionFactory,_Websphere_Config_Data_Id=cells/QVMW056Node01Cell|resources.xml#MQConnectionFactory_1346944518812,_WEBSPHERE_CONFIG_SESSION=anonymous1371633440917"/>
+   </documentation>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig infrastructureType="jms_destination_transport">
+      <recordingSettings colour="200,255,200"/>
+   </resourceConfig>
+</editableResource>

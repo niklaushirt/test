@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1347380734759" createdUser="Administrator" id="1a45c81d:139b609f3ee:-7cca:1220038982:1544155186" selfDescribing="DEVELOPMENT - http localhost:8089 " type="http_transport" updatedTimestamp="1386762587230" updatedUser="Administrator" version="1.0">
+   <syncdetails compare="http localhost:8089 " lastSynced="1347380734759" sourceid="1a45c81d:139b609f3ee:-7cca">
+      <sourcepath path="HotelFinderService/HotelFinder"/>
+   </syncdetails>
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="DEVELOPMENT" transportTemplateName="HTTP">
+      <messageProperties ReasonPhrase="No Stub available that matches the request" clientConnectionsPerHost="100" credDomain="" credPassword="#com.ghc.1!f1d3" credType="0" credUser="" httpHost="localhost" httpNtlmDomain="" httpPort="8089" httpProxyHost="qvmw056" httpProxyPassword="#com.ghc.1!f86f" httpProxyPort="3128" httpProxyUsername="" httpResourceRoot="" httpServerSocketBindAddressOverride="" httpServerSocketPortOverride="50001" httpSocketTimeout="" httpTimeoutResponseCode="503" httpVirtualHost="" performValidation="false" recType="PROXY" specifyProvidedCertificate="false" specifyTrustedCertificate="false" trustedIdentityStore="[CRRIT1021E] No Identity Stores were found in the project" useSSL="false" verifyCerts="false" version="3">
+         <serverAuthentication>
+            <authenticationConfig enabled="false" realm="" type="1"/>
+            <authenticationConfig algorithm="" authParams="" domain="" enabled="false" nonce="false" opaque="" qop="" realm="" stale="" type="2"/>
+            <authenticationConfig enabled="false" type="3"/>
+            <authenticationConfig enabled="false" type="5"/>
+         </serverAuthentication>
+      </messageProperties>
+   </resourceConfig>
+</editableResource>

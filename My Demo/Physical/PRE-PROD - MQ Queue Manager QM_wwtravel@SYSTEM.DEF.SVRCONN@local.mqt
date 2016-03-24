@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1347293579931" createdUser="Administrator" id="52b18e4b:139b0eea6d3:-7eb4" selfDescribing="PRE-PROD - MQ Queue Manager QM_wwtravel@SYSTEM.DEF.SVRCONN@localhost:1414" type="mq_transport" updatedTimestamp="1354718526153" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="PRE-PROD" transportTemplateName="IBM Websphere MQ">
+      <_c ApplicationName="GHC MQ Transport" ApplicationType="MQSeries Client" Channel="SYSTEM.DEF.SVRCONN" Host="localhost" Password="" Port="1414" QBrowseFirst="" QBrowseNext="" QGetTake="" QOBrowse="" QORead="" QOWrite="" QPut="" QueueManager="QM_wwtravel" SSLFipsRequired="false" SSLKeyResetCount="" Username="Administrator" modelQueue="" prSuffix=".GH" qmConnections="5" rType="DYNAMIC_MIRROR" transportModelQueue="" transportUseDefaultModelQueue="true" useDefaultModelQueue="true"/>
+   </resourceConfig>
+</editableResource>

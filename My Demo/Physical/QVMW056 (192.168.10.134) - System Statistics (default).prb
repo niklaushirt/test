@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1373571813634" createdUser="Administrator" id="-63f50b6e:13fcf427f34:-7e32" selfDescribing="QVMW056 (192.168.10.134) - System Statistics (default)" type="probe_resource" updatedTimestamp="1373571813634" updatedUser="Administrator" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig defaultFlag="true" name="default" physicalResourceID="-63f50b6e:13fcf427f34:-7e3c" probeID="plugin.custom.SysStat">
+      <SysStatDatasource allProcesses="true" configuration="default"/>
+   </resourceConfig>
+</editableResource>
